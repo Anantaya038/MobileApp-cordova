@@ -1,0 +1,26 @@
+{
+  "pins": [
+    {
+      "id": 1,
+      "photo": "img\\cc.jpg",
+      "lat": "8.8950425",
+      "lng": "99.352075",
+      "description": "And then I'm you're girlfriend and you're my boyfriend."
+    },
+    {
+      "photo": "img\\bb.jpg",
+      "description": "dfd",
+      "id": 2
+    },
+    {
+      "photo": "img\\bb.jpg",
+      "description": "qw",
+      "id": 3
+    },
+    {
+      "photo": "img\\cc.jpg",
+      "description": "qwqwqw",
+      "id": 4
+    }
+  ]
+}

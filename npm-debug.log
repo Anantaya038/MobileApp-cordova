@@ -1,0 +1,2640 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'camera',
+1 verbose cli   '--production',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData camera
+8 silly fetchNamedPackageData camera
+9 silly mapToRegistry name camera
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'camera',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'camera',
+12 silly mapToRegistry   name: 'camera',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/camera
+14 verbose request uri https://registry.npmjs.org/camera
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 17:10:13
+17 verbose request id e9754630866eca02
+18 http request GET https://registry.npmjs.org/camera
+19 http 200 https://registry.npmjs.org/camera
+20 verbose headers { server: 'nginx/1.10.3',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Wed, 11 Oct 2017 19:09:21 GMT',
+20 verbose headers   etag: 'W/"59de6c61-236e"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '2531',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Mon, 30 Oct 2017 10:10:15 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-sin18029-SIN',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1509358216.680086,VS0,VE143',
+20 verbose headers   vary: 'Accept-Encoding, Accept' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.3',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Wed, 11 Oct 2017 19:09:21 GMT',
+21 silly get     etag: 'W/"59de6c61-236e"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '2531',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Mon, 30 Oct 2017 10:10:15 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-sin18029-SIN',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1509358216.680086,VS0,VE143',
+21 silly get     vary: 'Accept-Encoding, Accept' } ]
+22 verbose get saving camera to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\camera\.cache.json
+23 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule camera@0.0.5 checking installable status
+37 silly cache add args [ 'camera', null ]
+38 verbose cache add spec camera
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'camera',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'camera',
+39 silly cache add   name: 'camera',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed camera@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for camera
+42 info addNameTag [ 'camera', 'latest' ]
+43 silly mapToRegistry name camera
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'camera',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'camera',
+46 silly mapToRegistry   name: 'camera',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/camera
+48 verbose addNameTag registry:https://registry.npmjs.org/camera not in flight; fetching
+49 verbose get https://registry.npmjs.org/camera not expired, no request
+50 silly addNameTag next cb for camera with tag latest
+51 silly addNamed camera@0.0.5
+52 verbose addNamed "0.0.5" is a plain semver version for camera
+53 silly mapToRegistry name camera
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'camera',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   escapedName: 'camera',
+56 silly mapToRegistry   name: 'camera',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri https://registry.npmjs.org/camera
+58 verbose addRemoteTarball https://registry.npmjs.org/camera/-/camera-0.0.5.tgz not in flight; adding
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/camera/-/camera-0.0.5.tgz',
+59 verbose addRemoteTarball   '3ee44db8cb5993f315fd108c1d39f4038910359e' ]
+60 info retry fetch attempt 1 at 17:10:15
+61 info attempt registry request try #1 at 17:10:15
+62 http fetch GET https://registry.npmjs.org/camera/-/camera-0.0.5.tgz
+63 http fetch 200 https://registry.npmjs.org/camera/-/camera-0.0.5.tgz
+64 silly fetchAndShaCheck shasum 3ee44db8cb5993f315fd108c1d39f4038910359e
+65 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\camera\-\camera-0.0.5.tgz not in flight; adding
+66 verbose addTmpTarball already have metadata; skipping unpack for camera@0.0.5
+67 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+68 silly cache afterAdd camera@0.0.5
+69 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\camera\0.0.5\package\package.json not in flight; writing
+70 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+71 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\camera\0.0.5\package\package.json written
+72 silly fetchNamedPackageData coffee-script
+73 silly mapToRegistry name coffee-script
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'coffee-script',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'coffee-script',
+76 silly mapToRegistry   name: 'coffee-script',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+78 silly fetchNamedPackageData opencv
+79 silly mapToRegistry name opencv
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'opencv',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'opencv',
+82 silly mapToRegistry   name: 'opencv',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/opencv
+84 silly fetchNamedPackageData event-stream
+85 silly mapToRegistry name event-stream
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'event-stream',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'event-stream',
+88 silly mapToRegistry   name: 'event-stream',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/event-stream
+90 verbose request uri https://registry.npmjs.org/coffee-script
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 17:10:15
+93 http request GET https://registry.npmjs.org/coffee-script
+94 verbose request uri https://registry.npmjs.org/event-stream
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 17:10:15
+97 http request GET https://registry.npmjs.org/event-stream
+98 verbose request uri https://registry.npmjs.org/opencv
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 17:10:15
+101 http request GET https://registry.npmjs.org/opencv
+102 http 200 https://registry.npmjs.org/coffee-script
+103 verbose headers { server: 'nginx/1.10.3',
+103 verbose headers   'content-type': 'application/json',
+103 verbose headers   'last-modified': 'Mon, 30 Oct 2017 01:40:40 GMT',
+103 verbose headers   etag: 'W/"59f68318-e747"',
+103 verbose headers   'content-encoding': 'gzip',
+103 verbose headers   'cache-control': 'max-age=300',
+103 verbose headers   'content-length': '8306',
+103 verbose headers   'accept-ranges': 'bytes',
+103 verbose headers   date: 'Mon, 30 Oct 2017 10:10:16 GMT',
+103 verbose headers   via: '1.1 varnish',
+103 verbose headers   age: '123',
+103 verbose headers   connection: 'keep-alive',
+103 verbose headers   'x-served-by': 'cache-sin18029-SIN',
+103 verbose headers   'x-cache': 'HIT',
+103 verbose headers   'x-cache-hits': '3',
+103 verbose headers   'x-timer': 'S1509358216.098009,VS0,VE0',
+103 verbose headers   vary: 'Accept-Encoding, Accept' }
+104 silly get cb [ 200,
+104 silly get   { server: 'nginx/1.10.3',
+104 silly get     'content-type': 'application/json',
+104 silly get     'last-modified': 'Mon, 30 Oct 2017 01:40:40 GMT',
+104 silly get     etag: 'W/"59f68318-e747"',
+104 silly get     'content-encoding': 'gzip',
+104 silly get     'cache-control': 'max-age=300',
+104 silly get     'content-length': '8306',
+104 silly get     'accept-ranges': 'bytes',
+104 silly get     date: 'Mon, 30 Oct 2017 10:10:16 GMT',
+104 silly get     via: '1.1 varnish',
+104 silly get     age: '123',
+104 silly get     connection: 'keep-alive',
+104 silly get     'x-served-by': 'cache-sin18029-SIN',
+104 silly get     'x-cache': 'HIT',
+104 silly get     'x-cache-hits': '3',
+104 silly get     'x-timer': 'S1509358216.098009,VS0,VE0',
+104 silly get     vary: 'Accept-Encoding, Accept' } ]
+105 verbose get saving coffee-script to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\coffee-script\.cache.json
+106 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+107 silly resolveWithNewModule coffee-script@1.7.1 checking installable status
+108 silly cache add args [ 'coffee-script@~1.7.1', null ]
+109 verbose cache add spec coffee-script@~1.7.1
+110 silly cache add parsed spec Result {
+110 silly cache add   raw: 'coffee-script@~1.7.1',
+110 silly cache add   scope: null,
+110 silly cache add   escapedName: 'coffee-script',
+110 silly cache add   name: 'coffee-script',
+110 silly cache add   rawSpec: '~1.7.1',
+110 silly cache add   spec: '>=1.7.1 <1.8.0',
+110 silly cache add   type: 'range' }
+111 silly addNamed coffee-script@>=1.7.1 <1.8.0
+112 verbose addNamed ">=1.7.1 <1.8.0" is a valid semver range for coffee-script
+113 silly addNameRange { name: 'coffee-script',
+113 silly addNameRange   range: '>=1.7.1 <1.8.0',
+113 silly addNameRange   hasData: false }
+114 silly mapToRegistry name coffee-script
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npmjs.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: 'coffee-script',
+117 silly mapToRegistry   scope: null,
+117 silly mapToRegistry   escapedName: 'coffee-script',
+117 silly mapToRegistry   name: 'coffee-script',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+119 verbose addNameRange registry:https://registry.npmjs.org/coffee-script not in flight; fetching
+120 verbose get https://registry.npmjs.org/coffee-script not expired, no request
+121 silly addNameRange number 2 { name: 'coffee-script', range: '>=1.7.1 <1.8.0', hasData: true }
+122 silly addNameRange versions [ 'coffee-script',
+122 silly addNameRange   [ '0.7.0',
+122 silly addNameRange     '0.7.1',
+122 silly addNameRange     '0.7.2',
+122 silly addNameRange     '0.9.0',
+122 silly addNameRange     '0.9.1',
+122 silly addNameRange     '0.9.2',
+122 silly addNameRange     '0.9.3',
+122 silly addNameRange     '0.9.4',
+122 silly addNameRange     '0.9.5',
+122 silly addNameRange     '0.9.6',
+122 silly addNameRange     '1.0.0',
+122 silly addNameRange     '1.0.1',
+122 silly addNameRange     '1.1.0',
+122 silly addNameRange     '1.1.1',
+122 silly addNameRange     '1.1.2',
+122 silly addNameRange     '1.1.3',
+122 silly addNameRange     '1.2.0',
+122 silly addNameRange     '1.3.0',
+122 silly addNameRange     '1.3.1',
+122 silly addNameRange     '1.3.2',
+122 silly addNameRange     '1.3.3',
+122 silly addNameRange     '1.4.0',
+122 silly addNameRange     '1.5.0',
+122 silly addNameRange     '1.6.0',
+122 silly addNameRange     '1.6.1',
+122 silly addNameRange     '1.6.2',
+122 silly addNameRange     '1.6.3',
+122 silly addNameRange     '1.7.0',
+122 silly addNameRange     '1.7.1',
+122 silly addNameRange     '1.8.0',
+122 silly addNameRange     '1.9.0',
+122 silly addNameRange     '1.9.1',
+122 silly addNameRange     '1.9.2',
+122 silly addNameRange     '1.9.3',
+122 silly addNameRange     '1.10.0',
+122 silly addNameRange     '1.11.0',
+122 silly addNameRange     '1.11.1',
+122 silly addNameRange     '1.12.0',
+122 silly addNameRange     '1.12.1',
+122 silly addNameRange     '1.12.2',
+122 silly addNameRange     '1.12.3',
+122 silly addNameRange     '1.12.4',
+122 silly addNameRange     '1.12.5',
+122 silly addNameRange     '1.12.6',
+122 silly addNameRange     '1.12.7' ] ]
+123 silly addNamed coffee-script@1.7.1
+124 verbose addNamed "1.7.1" is a plain semver version for coffee-script
+125 silly mapToRegistry name coffee-script
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'coffee-script',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'coffee-script',
+128 silly mapToRegistry   name: 'coffee-script',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/coffee-script
+130 verbose addRemoteTarball https://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz not in flight; adding
+131 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz',
+131 verbose addRemoteTarball   '62996a861780c75e6d5069d13822723b73404bfc' ]
+132 info retry fetch attempt 1 at 17:10:15
+133 info attempt registry request try #1 at 17:10:15
+134 http fetch GET https://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz
+135 http fetch 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz
+136 http 200 https://registry.npmjs.org/event-stream
+137 verbose headers { server: 'nginx/1.10.3',
+137 verbose headers   'content-type': 'application/json',
+137 verbose headers   'last-modified': 'Sun, 29 Oct 2017 20:15:25 GMT',
+137 verbose headers   etag: 'W/"59f636dd-17bce"',
+137 verbose headers   'content-encoding': 'gzip',
+137 verbose headers   'cache-control': 'max-age=300',
+137 verbose headers   'content-length': '11269',
+137 verbose headers   'accept-ranges': 'bytes',
+137 verbose headers   date: 'Mon, 30 Oct 2017 10:10:16 GMT',
+137 verbose headers   via: '1.1 varnish',
+137 verbose headers   age: '217',
+137 verbose headers   connection: 'keep-alive',
+137 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+137 verbose headers   'x-cache': 'HIT',
+137 verbose headers   'x-cache-hits': '3',
+137 verbose headers   'x-timer': 'S1509358216.202451,VS0,VE0',
+137 verbose headers   vary: 'Accept-Encoding, Accept' }
+138 silly get cb [ 200,
+138 silly get   { server: 'nginx/1.10.3',
+138 silly get     'content-type': 'application/json',
+138 silly get     'last-modified': 'Sun, 29 Oct 2017 20:15:25 GMT',
+138 silly get     etag: 'W/"59f636dd-17bce"',
+138 silly get     'content-encoding': 'gzip',
+138 silly get     'cache-control': 'max-age=300',
+138 silly get     'content-length': '11269',
+138 silly get     'accept-ranges': 'bytes',
+138 silly get     date: 'Mon, 30 Oct 2017 10:10:16 GMT',
+138 silly get     via: '1.1 varnish',
+138 silly get     age: '217',
+138 silly get     connection: 'keep-alive',
+138 silly get     'x-served-by': 'cache-sin18026-SIN',
+138 silly get     'x-cache': 'HIT',
+138 silly get     'x-cache-hits': '3',
+138 silly get     'x-timer': 'S1509358216.202451,VS0,VE0',
+138 silly get     vary: 'Accept-Encoding, Accept' } ]
+139 verbose get saving event-stream to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\event-stream\.cache.json
+140 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+141 silly resolveWithNewModule event-stream@3.1.7 checking installable status
+142 silly cache add args [ 'event-stream@~3.1.1', null ]
+143 verbose cache add spec event-stream@~3.1.1
+144 silly cache add parsed spec Result {
+144 silly cache add   raw: 'event-stream@~3.1.1',
+144 silly cache add   scope: null,
+144 silly cache add   escapedName: 'event-stream',
+144 silly cache add   name: 'event-stream',
+144 silly cache add   rawSpec: '~3.1.1',
+144 silly cache add   spec: '>=3.1.1 <3.2.0',
+144 silly cache add   type: 'range' }
+145 silly addNamed event-stream@>=3.1.1 <3.2.0
+146 verbose addNamed ">=3.1.1 <3.2.0" is a valid semver range for event-stream
+147 silly addNameRange { name: 'event-stream', range: '>=3.1.1 <3.2.0', hasData: false }
+148 silly mapToRegistry name event-stream
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry data Result {
+151 silly mapToRegistry   raw: 'event-stream',
+151 silly mapToRegistry   scope: null,
+151 silly mapToRegistry   escapedName: 'event-stream',
+151 silly mapToRegistry   name: 'event-stream',
+151 silly mapToRegistry   rawSpec: '',
+151 silly mapToRegistry   spec: 'latest',
+151 silly mapToRegistry   type: 'tag' }
+152 silly mapToRegistry uri https://registry.npmjs.org/event-stream
+153 verbose addNameRange registry:https://registry.npmjs.org/event-stream not in flight; fetching
+154 verbose get https://registry.npmjs.org/event-stream not expired, no request
+155 silly addNameRange number 2 { name: 'event-stream', range: '>=3.1.1 <3.2.0', hasData: true }
+156 silly addNameRange versions [ 'event-stream',
+156 silly addNameRange   [ '0.1.0',
+156 silly addNameRange     '0.2.0',
+156 silly addNameRange     '0.2.1',
+156 silly addNameRange     '0.3.0',
+156 silly addNameRange     '0.4.0',
+156 silly addNameRange     '0.5.0',
+156 silly addNameRange     '0.5.1',
+156 silly addNameRange     '0.5.2',
+156 silly addNameRange     '0.5.3',
+156 silly addNameRange     '0.6.0',
+156 silly addNameRange     '0.7.0',
+156 silly addNameRange     '0.8.0',
+156 silly addNameRange     '0.8.1',
+156 silly addNameRange     '0.8.2',
+156 silly addNameRange     '0.9.0',
+156 silly addNameRange     '0.9.1',
+156 silly addNameRange     '0.9.2',
+156 silly addNameRange     '0.9.3',
+156 silly addNameRange     '0.9.4',
+156 silly addNameRange     '0.9.6',
+156 silly addNameRange     '0.9.7',
+156 silly addNameRange     '0.9.8',
+156 silly addNameRange     '0.10.0',
+156 silly addNameRange     '1.0.0',
+156 silly addNameRange     '1.1.0',
+156 silly addNameRange     '1.2.0',
+156 silly addNameRange     '1.3.0',
+156 silly addNameRange     '1.3.1',
+156 silly addNameRange     '2.0.0',
+156 silly addNameRange     '2.0.1',
+156 silly addNameRange     '2.0.2',
+156 silly addNameRange     '2.0.3',
+156 silly addNameRange     '2.0.4',
+156 silly addNameRange     '2.0.9',
+156 silly addNameRange     '2.0.10',
+156 silly addNameRange     '2.1.0',
+156 silly addNameRange     '2.1.2',
+156 silly addNameRange     '2.1.3',
+156 silly addNameRange     '2.1.4',
+156 silly addNameRange     '2.1.5',
+156 silly addNameRange     '2.1.7',
+156 silly addNameRange     '2.1.8',
+156 silly addNameRange     '2.1.9',
+156 silly addNameRange     '2.2.0',
+156 silly addNameRange     '2.2.1',
+156 silly addNameRange     '2.2.2',
+156 silly addNameRange     '2.2.3',
+156 silly addNameRange     '3.0.0',
+156 silly addNameRange     '3.0.1',
+156 silly addNameRange     '3.0.2',
+156 silly addNameRange     '3.0.3',
+156 silly addNameRange     '3.0.4',
+156 silly addNameRange     '3.0.5',
+156 silly addNameRange     '3.0.6',
+156 silly addNameRange     '3.0.7',
+156 silly addNameRange     '3.0.8',
+156 silly addNameRange     '3.0.9',
+156 silly addNameRange     '3.0.10',
+156 silly addNameRange     '3.0.11',
+156 silly addNameRange     '3.0.12',
+156 silly addNameRange     '3.0.13',
+156 silly addNameRange     '3.0.14',
+156 silly addNameRange     '3.0.15',
+156 silly addNameRange     '3.0.16',
+156 silly addNameRange     '3.0.17',
+156 silly addNameRange     '3.0.18',
+156 silly addNameRange     '3.0.20',
+156 silly addNameRange     '3.1.0',
+156 silly addNameRange     '3.1.1',
+156 silly addNameRange     '3.1.2',
+156 silly addNameRange     '3.1.4',
+156 silly addNameRange     '3.1.5',
+156 silly addNameRange     '3.1.7',
+156 silly addNameRange     '3.2.0',
+156 silly addNameRange     '3.2.1',
+156 silly addNameRange     '3.2.2',
+156 silly addNameRange     '3.3.0',
+156 silly addNameRange     '3.3.1',
+156 silly addNameRange     '3.3.2',
+156 silly addNameRange     '3.3.3',
+156 silly addNameRange     '3.3.4' ] ]
+157 silly addNamed event-stream@3.1.7
+158 verbose addNamed "3.1.7" is a plain semver version for event-stream
+159 silly mapToRegistry name event-stream
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: 'event-stream',
+162 silly mapToRegistry   scope: null,
+162 silly mapToRegistry   escapedName: 'event-stream',
+162 silly mapToRegistry   name: 'event-stream',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/event-stream
+164 verbose addRemoteTarball https://registry.npmjs.org/event-stream/-/event-stream-3.1.7.tgz not in flight; adding
+165 verbose addRemoteTarball [ 'https://registry.npmjs.org/event-stream/-/event-stream-3.1.7.tgz',
+165 verbose addRemoteTarball   'b4c540012d0fe1498420f3d8946008db6393c37a' ]
+166 info retry fetch attempt 1 at 17:10:15
+167 info attempt registry request try #1 at 17:10:15
+168 http fetch GET https://registry.npmjs.org/event-stream/-/event-stream-3.1.7.tgz
+169 silly fetchAndShaCheck shasum 62996a861780c75e6d5069d13822723b73404bfc
+170 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\coffee-script\-\coffee-script-1.7.1.tgz not in flight; adding
+171 verbose addTmpTarball already have metadata; skipping unpack for coffee-script@1.7.1
+172 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+173 http fetch 200 https://registry.npmjs.org/event-stream/-/event-stream-3.1.7.tgz
+174 silly cache afterAdd coffee-script@1.7.1
+175 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\coffee-script\1.7.1\package\package.json not in flight; writing
+176 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+177 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\coffee-script\1.7.1\package\package.json written
+178 silly fetchAndShaCheck shasum b4c540012d0fe1498420f3d8946008db6393c37a
+179 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\event-stream\-\event-stream-3.1.7.tgz not in flight; adding
+180 verbose addTmpTarball already have metadata; skipping unpack for event-stream@3.1.7
+181 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+182 silly cache afterAdd event-stream@3.1.7
+183 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\event-stream\3.1.7\package\package.json not in flight; writing
+184 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+185 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\event-stream\3.1.7\package\package.json written
+186 http 200 https://registry.npmjs.org/opencv
+187 verbose headers { server: 'nginx/1.10.3',
+187 verbose headers   'content-type': 'application/json',
+187 verbose headers   'last-modified': 'Wed, 19 Jul 2017 05:16:51 GMT',
+187 verbose headers   etag: 'W/"596eeb43-8c88"',
+187 verbose headers   'content-encoding': 'gzip',
+187 verbose headers   'cache-control': 'max-age=300',
+187 verbose headers   'content-length': '6285',
+187 verbose headers   'accept-ranges': 'bytes',
+187 verbose headers   date: 'Mon, 30 Oct 2017 10:10:16 GMT',
+187 verbose headers   via: '1.1 varnish',
+187 verbose headers   age: '0',
+187 verbose headers   connection: 'keep-alive',
+187 verbose headers   'x-served-by': 'cache-sin18031-SIN',
+187 verbose headers   'x-cache': 'MISS',
+187 verbose headers   'x-cache-hits': '0',
+187 verbose headers   'x-timer': 'S1509358216.203548,VS0,VE207',
+187 verbose headers   vary: 'Accept-Encoding, Accept' }
+188 silly get cb [ 200,
+188 silly get   { server: 'nginx/1.10.3',
+188 silly get     'content-type': 'application/json',
+188 silly get     'last-modified': 'Wed, 19 Jul 2017 05:16:51 GMT',
+188 silly get     etag: 'W/"596eeb43-8c88"',
+188 silly get     'content-encoding': 'gzip',
+188 silly get     'cache-control': 'max-age=300',
+188 silly get     'content-length': '6285',
+188 silly get     'accept-ranges': 'bytes',
+188 silly get     date: 'Mon, 30 Oct 2017 10:10:16 GMT',
+188 silly get     via: '1.1 varnish',
+188 silly get     age: '0',
+188 silly get     connection: 'keep-alive',
+188 silly get     'x-served-by': 'cache-sin18031-SIN',
+188 silly get     'x-cache': 'MISS',
+188 silly get     'x-cache-hits': '0',
+188 silly get     'x-timer': 'S1509358216.203548,VS0,VE207',
+188 silly get     vary: 'Accept-Encoding, Accept' } ]
+189 verbose get saving opencv to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\opencv\.cache.json
+190 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+191 silly resolveWithNewModule opencv@0.5.0 checking installable status
+192 silly cache add args [ 'opencv@~0.5.0', null ]
+193 verbose cache add spec opencv@~0.5.0
+194 silly cache add parsed spec Result {
+194 silly cache add   raw: 'opencv@~0.5.0',
+194 silly cache add   scope: null,
+194 silly cache add   escapedName: 'opencv',
+194 silly cache add   name: 'opencv',
+194 silly cache add   rawSpec: '~0.5.0',
+194 silly cache add   spec: '>=0.5.0 <0.6.0',
+194 silly cache add   type: 'range' }
+195 silly addNamed opencv@>=0.5.0 <0.6.0
+196 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for opencv
+197 silly addNameRange { name: 'opencv', range: '>=0.5.0 <0.6.0', hasData: false }
+198 silly mapToRegistry name opencv
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry data Result {
+201 silly mapToRegistry   raw: 'opencv',
+201 silly mapToRegistry   scope: null,
+201 silly mapToRegistry   escapedName: 'opencv',
+201 silly mapToRegistry   name: 'opencv',
+201 silly mapToRegistry   rawSpec: '',
+201 silly mapToRegistry   spec: 'latest',
+201 silly mapToRegistry   type: 'tag' }
+202 silly mapToRegistry uri https://registry.npmjs.org/opencv
+203 verbose addNameRange registry:https://registry.npmjs.org/opencv not in flight; fetching
+204 verbose get https://registry.npmjs.org/opencv not expired, no request
+205 silly addNameRange number 2 { name: 'opencv', range: '>=0.5.0 <0.6.0', hasData: true }
+206 silly addNameRange versions [ 'opencv',
+206 silly addNameRange   [ '0.0.1',
+206 silly addNameRange     '0.0.2',
+206 silly addNameRange     '0.0.3',
+206 silly addNameRange     '0.0.4',
+206 silly addNameRange     '0.0.5',
+206 silly addNameRange     '0.0.6',
+206 silly addNameRange     '0.0.7',
+206 silly addNameRange     '0.0.8',
+206 silly addNameRange     '0.0.9',
+206 silly addNameRange     '0.0.10',
+206 silly addNameRange     '0.0.11',
+206 silly addNameRange     '0.0.12',
+206 silly addNameRange     '0.1.0',
+206 silly addNameRange     '0.2.0',
+206 silly addNameRange     '0.3.0',
+206 silly addNameRange     '0.3.1',
+206 silly addNameRange     '0.4.0',
+206 silly addNameRange     '0.5.0',
+206 silly addNameRange     '0.6.0',
+206 silly addNameRange     '0.7.0',
+206 silly addNameRange     '1.0.0',
+206 silly addNameRange     '2.0.0',
+206 silly addNameRange     '3.0.0',
+206 silly addNameRange     '3.1.0',
+206 silly addNameRange     '3.2.0',
+206 silly addNameRange     '4.0.0',
+206 silly addNameRange     '5.0.0',
+206 silly addNameRange     '6.0.0' ] ]
+207 silly addNamed opencv@0.5.0
+208 verbose addNamed "0.5.0" is a plain semver version for opencv
+209 silly mapToRegistry name opencv
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npmjs.org/
+212 silly mapToRegistry data Result {
+212 silly mapToRegistry   raw: 'opencv',
+212 silly mapToRegistry   scope: null,
+212 silly mapToRegistry   escapedName: 'opencv',
+212 silly mapToRegistry   name: 'opencv',
+212 silly mapToRegistry   rawSpec: '',
+212 silly mapToRegistry   spec: 'latest',
+212 silly mapToRegistry   type: 'tag' }
+213 silly mapToRegistry uri https://registry.npmjs.org/opencv
+214 verbose addRemoteTarball https://registry.npmjs.org/opencv/-/opencv-0.5.0.tgz not in flight; adding
+215 verbose addRemoteTarball [ 'https://registry.npmjs.org/opencv/-/opencv-0.5.0.tgz',
+215 verbose addRemoteTarball   'd54cefbe5d78ccacff62fd91732691190d438c9d' ]
+216 info retry fetch attempt 1 at 17:10:16
+217 info attempt registry request try #1 at 17:10:16
+218 http fetch GET https://registry.npmjs.org/opencv/-/opencv-0.5.0.tgz
+219 http fetch 200 https://registry.npmjs.org/opencv/-/opencv-0.5.0.tgz
+220 silly fetchAndShaCheck shasum d54cefbe5d78ccacff62fd91732691190d438c9d
+221 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\opencv\-\opencv-0.5.0.tgz not in flight; adding
+222 verbose addTmpTarball already have metadata; skipping unpack for opencv@0.5.0
+223 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+224 silly cache afterAdd opencv@0.5.0
+225 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\opencv\0.5.0\package\package.json not in flight; writing
+226 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+227 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\opencv\0.5.0\package\package.json written
+228 silly fetchNamedPackageData mkdirp
+229 silly mapToRegistry name mkdirp
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry data Result {
+232 silly mapToRegistry   raw: 'mkdirp',
+232 silly mapToRegistry   scope: null,
+232 silly mapToRegistry   escapedName: 'mkdirp',
+232 silly mapToRegistry   name: 'mkdirp',
+232 silly mapToRegistry   rawSpec: '',
+232 silly mapToRegistry   spec: 'latest',
+232 silly mapToRegistry   type: 'tag' }
+233 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+234 verbose request uri https://registry.npmjs.org/mkdirp
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 17:10:17
+237 verbose etag W/"59f3e337-6844"
+238 verbose lastModified Sat, 28 Oct 2017 01:53:59 GMT
+239 http request GET https://registry.npmjs.org/mkdirp
+240 http 304 https://registry.npmjs.org/mkdirp
+241 verbose headers { date: 'Mon, 30 Oct 2017 10:10:17 GMT',
+241 verbose headers   via: '1.1 varnish',
+241 verbose headers   'cache-control': 'max-age=300',
+241 verbose headers   etag: 'W/"59f3e337-6844"',
+241 verbose headers   age: '64',
+241 verbose headers   connection: 'keep-alive',
+241 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+241 verbose headers   'x-cache': 'HIT',
+241 verbose headers   'x-cache-hits': '9',
+241 verbose headers   'x-timer': 'S1509358218.732122,VS0,VE0',
+241 verbose headers   vary: 'Accept-Encoding, Accept' }
+242 silly get cb [ 304,
+242 silly get   { date: 'Mon, 30 Oct 2017 10:10:17 GMT',
+242 silly get     via: '1.1 varnish',
+242 silly get     'cache-control': 'max-age=300',
+242 silly get     etag: 'W/"59f3e337-6844"',
+242 silly get     age: '64',
+242 silly get     connection: 'keep-alive',
+242 silly get     'x-served-by': 'cache-sin18026-SIN',
+242 silly get     'x-cache': 'HIT',
+242 silly get     'x-cache-hits': '9',
+242 silly get     'x-timer': 'S1509358218.732122,VS0,VE0',
+242 silly get     vary: 'Accept-Encoding, Accept' } ]
+243 verbose etag https://registry.npmjs.org/mkdirp from cache
+244 verbose get saving mkdirp to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\mkdirp\.cache.json
+245 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+246 silly resolveWithNewModule mkdirp@0.3.5 checking installable status
+247 silly cache add args [ 'mkdirp@~0.3.5', null ]
+248 verbose cache add spec mkdirp@~0.3.5
+249 silly cache add parsed spec Result {
+249 silly cache add   raw: 'mkdirp@~0.3.5',
+249 silly cache add   scope: null,
+249 silly cache add   escapedName: 'mkdirp',
+249 silly cache add   name: 'mkdirp',
+249 silly cache add   rawSpec: '~0.3.5',
+249 silly cache add   spec: '>=0.3.5 <0.4.0',
+249 silly cache add   type: 'range' }
+250 silly addNamed mkdirp@>=0.3.5 <0.4.0
+251 verbose addNamed ">=0.3.5 <0.4.0" is a valid semver range for mkdirp
+252 silly addNameRange { name: 'mkdirp', range: '>=0.3.5 <0.4.0', hasData: false }
+253 silly mapToRegistry name mkdirp
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'mkdirp',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   escapedName: 'mkdirp',
+256 silly mapToRegistry   name: 'mkdirp',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+258 verbose addNameRange registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+259 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+260 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.5 <0.4.0', hasData: true }
+261 silly addNameRange versions [ 'mkdirp',
+261 silly addNameRange   [ '0.0.1',
+261 silly addNameRange     '0.0.2',
+261 silly addNameRange     '0.0.3',
+261 silly addNameRange     '0.0.4',
+261 silly addNameRange     '0.0.5',
+261 silly addNameRange     '0.0.6',
+261 silly addNameRange     '0.0.7',
+261 silly addNameRange     '0.1.0',
+261 silly addNameRange     '0.2.0',
+261 silly addNameRange     '0.2.1',
+261 silly addNameRange     '0.2.2',
+261 silly addNameRange     '0.3.0',
+261 silly addNameRange     '0.3.1',
+261 silly addNameRange     '0.3.2',
+261 silly addNameRange     '0.3.3',
+261 silly addNameRange     '0.3.4',
+261 silly addNameRange     '0.3.5',
+261 silly addNameRange     '0.4.0',
+261 silly addNameRange     '0.4.1',
+261 silly addNameRange     '0.4.2',
+261 silly addNameRange     '0.5.0',
+261 silly addNameRange     '0.5.1' ] ]
+262 silly addNamed mkdirp@0.3.5
+263 verbose addNamed "0.3.5" is a plain semver version for mkdirp
+264 silly mapToRegistry name mkdirp
+265 silly mapToRegistry using default registry
+266 silly mapToRegistry registry https://registry.npmjs.org/
+267 silly mapToRegistry data Result {
+267 silly mapToRegistry   raw: 'mkdirp',
+267 silly mapToRegistry   scope: null,
+267 silly mapToRegistry   escapedName: 'mkdirp',
+267 silly mapToRegistry   name: 'mkdirp',
+267 silly mapToRegistry   rawSpec: '',
+267 silly mapToRegistry   spec: 'latest',
+267 silly mapToRegistry   type: 'tag' }
+268 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+269 verbose addRemoteTarball https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz not in flight; adding
+270 verbose addRemoteTarball [ 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz',
+270 verbose addRemoteTarball   'de3e5f8961c88c787ee1368df849ac4413eca8d7' ]
+271 info retry fetch attempt 1 at 17:10:17
+272 info attempt registry request try #1 at 17:10:17
+273 http fetch GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+274 http fetch 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+275 silly fetchAndShaCheck shasum de3e5f8961c88c787ee1368df849ac4413eca8d7
+276 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\mkdirp\-\mkdirp-0.3.5.tgz not in flight; adding
+277 verbose addTmpTarball already have metadata; skipping unpack for mkdirp@0.3.5
+278 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+279 silly cache afterAdd mkdirp@0.3.5
+280 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\mkdirp\0.3.5\package\package.json not in flight; writing
+281 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+282 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\mkdirp\0.3.5\package\package.json written
+283 silly fetchNamedPackageData through
+284 silly mapToRegistry name through
+285 silly mapToRegistry using default registry
+286 silly mapToRegistry registry https://registry.npmjs.org/
+287 silly mapToRegistry data Result {
+287 silly mapToRegistry   raw: 'through',
+287 silly mapToRegistry   scope: null,
+287 silly mapToRegistry   escapedName: 'through',
+287 silly mapToRegistry   name: 'through',
+287 silly mapToRegistry   rawSpec: '',
+287 silly mapToRegistry   spec: 'latest',
+287 silly mapToRegistry   type: 'tag' }
+288 silly mapToRegistry uri https://registry.npmjs.org/through
+289 silly fetchNamedPackageData duplexer
+290 silly mapToRegistry name duplexer
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry data Result {
+293 silly mapToRegistry   raw: 'duplexer',
+293 silly mapToRegistry   scope: null,
+293 silly mapToRegistry   escapedName: 'duplexer',
+293 silly mapToRegistry   name: 'duplexer',
+293 silly mapToRegistry   rawSpec: '',
+293 silly mapToRegistry   spec: 'latest',
+293 silly mapToRegistry   type: 'tag' }
+294 silly mapToRegistry uri https://registry.npmjs.org/duplexer
+295 silly fetchNamedPackageData from
+296 silly mapToRegistry name from
+297 silly mapToRegistry using default registry
+298 silly mapToRegistry registry https://registry.npmjs.org/
+299 silly mapToRegistry data Result {
+299 silly mapToRegistry   raw: 'from',
+299 silly mapToRegistry   scope: null,
+299 silly mapToRegistry   escapedName: 'from',
+299 silly mapToRegistry   name: 'from',
+299 silly mapToRegistry   rawSpec: '',
+299 silly mapToRegistry   spec: 'latest',
+299 silly mapToRegistry   type: 'tag' }
+300 silly mapToRegistry uri https://registry.npmjs.org/from
+301 silly fetchNamedPackageData map-stream
+302 silly mapToRegistry name map-stream
+303 silly mapToRegistry using default registry
+304 silly mapToRegistry registry https://registry.npmjs.org/
+305 silly mapToRegistry data Result {
+305 silly mapToRegistry   raw: 'map-stream',
+305 silly mapToRegistry   scope: null,
+305 silly mapToRegistry   escapedName: 'map-stream',
+305 silly mapToRegistry   name: 'map-stream',
+305 silly mapToRegistry   rawSpec: '',
+305 silly mapToRegistry   spec: 'latest',
+305 silly mapToRegistry   type: 'tag' }
+306 silly mapToRegistry uri https://registry.npmjs.org/map-stream
+307 silly fetchNamedPackageData pause-stream
+308 silly mapToRegistry name pause-stream
+309 silly mapToRegistry using default registry
+310 silly mapToRegistry registry https://registry.npmjs.org/
+311 silly mapToRegistry data Result {
+311 silly mapToRegistry   raw: 'pause-stream',
+311 silly mapToRegistry   scope: null,
+311 silly mapToRegistry   escapedName: 'pause-stream',
+311 silly mapToRegistry   name: 'pause-stream',
+311 silly mapToRegistry   rawSpec: '',
+311 silly mapToRegistry   spec: 'latest',
+311 silly mapToRegistry   type: 'tag' }
+312 silly mapToRegistry uri https://registry.npmjs.org/pause-stream
+313 silly fetchNamedPackageData split
+314 silly mapToRegistry name split
+315 silly mapToRegistry using default registry
+316 silly mapToRegistry registry https://registry.npmjs.org/
+317 silly mapToRegistry data Result {
+317 silly mapToRegistry   raw: 'split',
+317 silly mapToRegistry   scope: null,
+317 silly mapToRegistry   escapedName: 'split',
+317 silly mapToRegistry   name: 'split',
+317 silly mapToRegistry   rawSpec: '',
+317 silly mapToRegistry   spec: 'latest',
+317 silly mapToRegistry   type: 'tag' }
+318 silly mapToRegistry uri https://registry.npmjs.org/split
+319 silly fetchNamedPackageData stream-combiner
+320 silly mapToRegistry name stream-combiner
+321 silly mapToRegistry using default registry
+322 silly mapToRegistry registry https://registry.npmjs.org/
+323 silly mapToRegistry data Result {
+323 silly mapToRegistry   raw: 'stream-combiner',
+323 silly mapToRegistry   scope: null,
+323 silly mapToRegistry   escapedName: 'stream-combiner',
+323 silly mapToRegistry   name: 'stream-combiner',
+323 silly mapToRegistry   rawSpec: '',
+323 silly mapToRegistry   spec: 'latest',
+323 silly mapToRegistry   type: 'tag' }
+324 silly mapToRegistry uri https://registry.npmjs.org/stream-combiner
+325 verbose request uri https://registry.npmjs.org/map-stream
+326 verbose request no auth needed
+327 info attempt registry request try #1 at 17:10:17
+328 http request GET https://registry.npmjs.org/map-stream
+329 verbose request uri https://registry.npmjs.org/duplexer
+330 verbose request no auth needed
+331 info attempt registry request try #1 at 17:10:17
+332 http request GET https://registry.npmjs.org/duplexer
+333 verbose request uri https://registry.npmjs.org/from
+334 verbose request no auth needed
+335 info attempt registry request try #1 at 17:10:17
+336 http request GET https://registry.npmjs.org/from
+337 verbose request uri https://registry.npmjs.org/pause-stream
+338 verbose request no auth needed
+339 info attempt registry request try #1 at 17:10:17
+340 http request GET https://registry.npmjs.org/pause-stream
+341 verbose request uri https://registry.npmjs.org/split
+342 verbose request no auth needed
+343 info attempt registry request try #1 at 17:10:17
+344 http request GET https://registry.npmjs.org/split
+345 verbose request uri https://registry.npmjs.org/stream-combiner
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 17:10:17
+348 http request GET https://registry.npmjs.org/stream-combiner
+349 verbose request uri https://registry.npmjs.org/through
+350 verbose request no auth needed
+351 info attempt registry request try #1 at 17:10:17
+352 verbose etag W/"59c27d70-74d8"
+353 verbose lastModified Wed, 20 Sep 2017 14:38:40 GMT
+354 http request GET https://registry.npmjs.org/through
+355 http 200 https://registry.npmjs.org/map-stream
+356 verbose headers { server: 'nginx/1.10.3',
+356 verbose headers   'content-type': 'application/json',
+356 verbose headers   'last-modified': 'Wed, 12 Apr 2017 03:51:17 GMT',
+356 verbose headers   etag: 'W/"58eda435-2712"',
+356 verbose headers   'content-encoding': 'gzip',
+356 verbose headers   'cache-control': 'max-age=300',
+356 verbose headers   'content-length': '2050',
+356 verbose headers   'accept-ranges': 'bytes',
+356 verbose headers   date: 'Mon, 30 Oct 2017 10:10:17 GMT',
+356 verbose headers   via: '1.1 varnish',
+356 verbose headers   age: '234',
+356 verbose headers   connection: 'keep-alive',
+356 verbose headers   'x-served-by': 'cache-sin18029-SIN',
+356 verbose headers   'x-cache': 'HIT',
+356 verbose headers   'x-cache-hits': '5',
+356 verbose headers   'x-timer': 'S1509358218.945404,VS0,VE0',
+356 verbose headers   vary: 'Accept-Encoding, Accept' }
+357 silly get cb [ 200,
+357 silly get   { server: 'nginx/1.10.3',
+357 silly get     'content-type': 'application/json',
+357 silly get     'last-modified': 'Wed, 12 Apr 2017 03:51:17 GMT',
+357 silly get     etag: 'W/"58eda435-2712"',
+357 silly get     'content-encoding': 'gzip',
+357 silly get     'cache-control': 'max-age=300',
+357 silly get     'content-length': '2050',
+357 silly get     'accept-ranges': 'bytes',
+357 silly get     date: 'Mon, 30 Oct 2017 10:10:17 GMT',
+357 silly get     via: '1.1 varnish',
+357 silly get     age: '234',
+357 silly get     connection: 'keep-alive',
+357 silly get     'x-served-by': 'cache-sin18029-SIN',
+357 silly get     'x-cache': 'HIT',
+357 silly get     'x-cache-hits': '5',
+357 silly get     'x-timer': 'S1509358218.945404,VS0,VE0',
+357 silly get     vary: 'Accept-Encoding, Accept' } ]
+358 verbose get saving map-stream to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\map-stream\.cache.json
+359 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+360 silly resolveWithNewModule map-stream@0.1.0 checking installable status
+361 silly cache add args [ 'map-stream@~0.1.0', null ]
+362 verbose cache add spec map-stream@~0.1.0
+363 silly cache add parsed spec Result {
+363 silly cache add   raw: 'map-stream@~0.1.0',
+363 silly cache add   scope: null,
+363 silly cache add   escapedName: 'map-stream',
+363 silly cache add   name: 'map-stream',
+363 silly cache add   rawSpec: '~0.1.0',
+363 silly cache add   spec: '>=0.1.0 <0.2.0',
+363 silly cache add   type: 'range' }
+364 silly addNamed map-stream@>=0.1.0 <0.2.0
+365 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for map-stream
+366 silly addNameRange { name: 'map-stream', range: '>=0.1.0 <0.2.0', hasData: false }
+367 silly mapToRegistry name map-stream
+368 silly mapToRegistry using default registry
+369 silly mapToRegistry registry https://registry.npmjs.org/
+370 silly mapToRegistry data Result {
+370 silly mapToRegistry   raw: 'map-stream',
+370 silly mapToRegistry   scope: null,
+370 silly mapToRegistry   escapedName: 'map-stream',
+370 silly mapToRegistry   name: 'map-stream',
+370 silly mapToRegistry   rawSpec: '',
+370 silly mapToRegistry   spec: 'latest',
+370 silly mapToRegistry   type: 'tag' }
+371 silly mapToRegistry uri https://registry.npmjs.org/map-stream
+372 verbose addNameRange registry:https://registry.npmjs.org/map-stream not in flight; fetching
+373 http 200 https://registry.npmjs.org/from
+374 verbose headers { server: 'nginx/1.10.3',
+374 verbose headers   'content-type': 'application/json',
+374 verbose headers   'last-modified': 'Sat, 11 Mar 2017 21:58:43 GMT',
+374 verbose headers   etag: 'W/"58c47313-1d3d"',
+374 verbose headers   'content-encoding': 'gzip',
+374 verbose headers   'cache-control': 'max-age=300',
+374 verbose headers   'content-length': '1643',
+374 verbose headers   'accept-ranges': 'bytes',
+374 verbose headers   date: 'Mon, 30 Oct 2017 10:10:17 GMT',
+374 verbose headers   via: '1.1 varnish',
+374 verbose headers   age: '219',
+374 verbose headers   connection: 'keep-alive',
+374 verbose headers   'x-served-by': 'cache-sin18031-SIN',
+374 verbose headers   'x-cache': 'HIT',
+374 verbose headers   'x-cache-hits': '4',
+374 verbose headers   'x-timer': 'S1509358218.947484,VS0,VE0',
+374 verbose headers   vary: 'Accept-Encoding, Accept' }
+375 silly get cb [ 200,
+375 silly get   { server: 'nginx/1.10.3',
+375 silly get     'content-type': 'application/json',
+375 silly get     'last-modified': 'Sat, 11 Mar 2017 21:58:43 GMT',
+375 silly get     etag: 'W/"58c47313-1d3d"',
+375 silly get     'content-encoding': 'gzip',
+375 silly get     'cache-control': 'max-age=300',
+375 silly get     'content-length': '1643',
+375 silly get     'accept-ranges': 'bytes',
+375 silly get     date: 'Mon, 30 Oct 2017 10:10:17 GMT',
+375 silly get     via: '1.1 varnish',
+375 silly get     age: '219',
+375 silly get     connection: 'keep-alive',
+375 silly get     'x-served-by': 'cache-sin18031-SIN',
+375 silly get     'x-cache': 'HIT',
+375 silly get     'x-cache-hits': '4',
+375 silly get     'x-timer': 'S1509358218.947484,VS0,VE0',
+375 silly get     vary: 'Accept-Encoding, Accept' } ]
+376 verbose get saving from to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\from\.cache.json
+377 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+378 verbose get https://registry.npmjs.org/map-stream not expired, no request
+379 silly addNameRange number 2 { name: 'map-stream', range: '>=0.1.0 <0.2.0', hasData: true }
+380 silly addNameRange versions [ 'map-stream',
+380 silly addNameRange   [ '0.0.1',
+380 silly addNameRange     '0.0.2',
+380 silly addNameRange     '0.0.3',
+380 silly addNameRange     '0.0.4',
+380 silly addNameRange     '0.1.0',
+380 silly addNameRange     '0.0.5',
+380 silly addNameRange     '0.0.6',
+380 silly addNameRange     '0.0.7' ] ]
+381 silly addNamed map-stream@0.1.0
+382 verbose addNamed "0.1.0" is a plain semver version for map-stream
+383 http 200 https://registry.npmjs.org/duplexer
+384 verbose headers { server: 'nginx/1.10.3',
+384 verbose headers   'content-type': 'application/json',
+384 verbose headers   'last-modified': 'Fri, 27 Oct 2017 05:41:04 GMT',
+384 verbose headers   etag: 'W/"59f2c6f0-304d"',
+384 verbose headers   'content-encoding': 'gzip',
+384 verbose headers   'cache-control': 'max-age=300',
+384 verbose headers   'content-length': '1751',
+384 verbose headers   'accept-ranges': 'bytes',
+384 verbose headers   date: 'Mon, 30 Oct 2017 10:10:17 GMT',
+384 verbose headers   via: '1.1 varnish',
+384 verbose headers   age: '160',
+384 verbose headers   connection: 'keep-alive',
+384 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+384 verbose headers   'x-cache': 'HIT',
+384 verbose headers   'x-cache-hits': '6',
+384 verbose headers   'x-timer': 'S1509358218.948070,VS0,VE0',
+384 verbose headers   vary: 'Accept-Encoding, Accept' }
+385 silly get cb [ 200,
+385 silly get   { server: 'nginx/1.10.3',
+385 silly get     'content-type': 'application/json',
+385 silly get     'last-modified': 'Fri, 27 Oct 2017 05:41:04 GMT',
+385 silly get     etag: 'W/"59f2c6f0-304d"',
+385 silly get     'content-encoding': 'gzip',
+385 silly get     'cache-control': 'max-age=300',
+385 silly get     'content-length': '1751',
+385 silly get     'accept-ranges': 'bytes',
+385 silly get     date: 'Mon, 30 Oct 2017 10:10:17 GMT',
+385 silly get     via: '1.1 varnish',
+385 silly get     age: '160',
+385 silly get     connection: 'keep-alive',
+385 silly get     'x-served-by': 'cache-sin18026-SIN',
+385 silly get     'x-cache': 'HIT',
+385 silly get     'x-cache-hits': '6',
+385 silly get     'x-timer': 'S1509358218.948070,VS0,VE0',
+385 silly get     vary: 'Accept-Encoding, Accept' } ]
+386 verbose get saving duplexer to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\duplexer\.cache.json
+387 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+388 silly mapToRegistry name map-stream
+389 silly mapToRegistry using default registry
+390 silly mapToRegistry registry https://registry.npmjs.org/
+391 silly mapToRegistry data Result {
+391 silly mapToRegistry   raw: 'map-stream',
+391 silly mapToRegistry   scope: null,
+391 silly mapToRegistry   escapedName: 'map-stream',
+391 silly mapToRegistry   name: 'map-stream',
+391 silly mapToRegistry   rawSpec: '',
+391 silly mapToRegistry   spec: 'latest',
+391 silly mapToRegistry   type: 'tag' }
+392 silly mapToRegistry uri https://registry.npmjs.org/map-stream
+393 verbose addRemoteTarball https://registry.npmjs.org/map-stream/-/map-stream-0.1.0.tgz not in flight; adding
+394 verbose addRemoteTarball [ 'https://registry.npmjs.org/map-stream/-/map-stream-0.1.0.tgz',
+394 verbose addRemoteTarball   'e56aa94c4c8055a16404a0674b78f215f7c8e194' ]
+395 info retry fetch attempt 1 at 17:10:17
+396 info attempt registry request try #1 at 17:10:17
+397 http fetch GET https://registry.npmjs.org/map-stream/-/map-stream-0.1.0.tgz
+398 silly resolveWithNewModule from@0.1.7 checking installable status
+399 silly cache add args [ 'from@~0', null ]
+400 verbose cache add spec from@~0
+401 silly cache add parsed spec Result {
+401 silly cache add   raw: 'from@~0',
+401 silly cache add   scope: null,
+401 silly cache add   escapedName: 'from',
+401 silly cache add   name: 'from',
+401 silly cache add   rawSpec: '~0',
+401 silly cache add   spec: '>=0.0.0 <1.0.0',
+401 silly cache add   type: 'range' }
+402 silly addNamed from@>=0.0.0 <1.0.0
+403 verbose addNamed ">=0.0.0 <1.0.0" is a valid semver range for from
+404 silly addNameRange { name: 'from', range: '>=0.0.0 <1.0.0', hasData: false }
+405 silly mapToRegistry name from
+406 silly mapToRegistry using default registry
+407 silly mapToRegistry registry https://registry.npmjs.org/
+408 silly mapToRegistry data Result {
+408 silly mapToRegistry   raw: 'from',
+408 silly mapToRegistry   scope: null,
+408 silly mapToRegistry   escapedName: 'from',
+408 silly mapToRegistry   name: 'from',
+408 silly mapToRegistry   rawSpec: '',
+408 silly mapToRegistry   spec: 'latest',
+408 silly mapToRegistry   type: 'tag' }
+409 silly mapToRegistry uri https://registry.npmjs.org/from
+410 verbose addNameRange registry:https://registry.npmjs.org/from not in flight; fetching
+411 silly resolveWithNewModule duplexer@0.1.1 checking installable status
+412 silly cache add args [ 'duplexer@~0.1.1', null ]
+413 verbose cache add spec duplexer@~0.1.1
+414 silly cache add parsed spec Result {
+414 silly cache add   raw: 'duplexer@~0.1.1',
+414 silly cache add   scope: null,
+414 silly cache add   escapedName: 'duplexer',
+414 silly cache add   name: 'duplexer',
+414 silly cache add   rawSpec: '~0.1.1',
+414 silly cache add   spec: '>=0.1.1 <0.2.0',
+414 silly cache add   type: 'range' }
+415 silly addNamed duplexer@>=0.1.1 <0.2.0
+416 verbose addNamed ">=0.1.1 <0.2.0" is a valid semver range for duplexer
+417 silly addNameRange { name: 'duplexer', range: '>=0.1.1 <0.2.0', hasData: false }
+418 silly mapToRegistry name duplexer
+419 silly mapToRegistry using default registry
+420 silly mapToRegistry registry https://registry.npmjs.org/
+421 silly mapToRegistry data Result {
+421 silly mapToRegistry   raw: 'duplexer',
+421 silly mapToRegistry   scope: null,
+421 silly mapToRegistry   escapedName: 'duplexer',
+421 silly mapToRegistry   name: 'duplexer',
+421 silly mapToRegistry   rawSpec: '',
+421 silly mapToRegistry   spec: 'latest',
+421 silly mapToRegistry   type: 'tag' }
+422 silly mapToRegistry uri https://registry.npmjs.org/duplexer
+423 verbose addNameRange registry:https://registry.npmjs.org/duplexer not in flight; fetching
+424 verbose get https://registry.npmjs.org/from not expired, no request
+425 silly addNameRange number 2 { name: 'from', range: '>=0.0.0 <1.0.0', hasData: true }
+426 silly addNameRange versions [ 'from',
+426 silly addNameRange   [ '0.0.0', '0.0.1', '0.0.2', '0.1.1', '0.1.2', '0.1.3', '0.1.7' ] ]
+427 silly addNamed from@0.1.7
+428 verbose addNamed "0.1.7" is a plain semver version for from
+429 verbose get https://registry.npmjs.org/duplexer not expired, no request
+430 silly addNameRange number 2 { name: 'duplexer', range: '>=0.1.1 <0.2.0', hasData: true }
+431 silly addNameRange versions [ 'duplexer',
+431 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0', '0.1.1' ] ]
+432 silly addNamed duplexer@0.1.1
+433 verbose addNamed "0.1.1" is a plain semver version for duplexer
+434 silly mapToRegistry name from
+435 silly mapToRegistry using default registry
+436 silly mapToRegistry registry https://registry.npmjs.org/
+437 silly mapToRegistry data Result {
+437 silly mapToRegistry   raw: 'from',
+437 silly mapToRegistry   scope: null,
+437 silly mapToRegistry   escapedName: 'from',
+437 silly mapToRegistry   name: 'from',
+437 silly mapToRegistry   rawSpec: '',
+437 silly mapToRegistry   spec: 'latest',
+437 silly mapToRegistry   type: 'tag' }
+438 silly mapToRegistry uri https://registry.npmjs.org/from
+439 verbose addRemoteTarball https://registry.npmjs.org/from/-/from-0.1.7.tgz not in flight; adding
+440 verbose addRemoteTarball [ 'https://registry.npmjs.org/from/-/from-0.1.7.tgz',
+440 verbose addRemoteTarball   '83c60afc58b9c56997007ed1a768b3ab303a44fe' ]
+441 silly mapToRegistry name duplexer
+442 silly mapToRegistry using default registry
+443 silly mapToRegistry registry https://registry.npmjs.org/
+444 silly mapToRegistry data Result {
+444 silly mapToRegistry   raw: 'duplexer',
+444 silly mapToRegistry   scope: null,
+444 silly mapToRegistry   escapedName: 'duplexer',
+444 silly mapToRegistry   name: 'duplexer',
+444 silly mapToRegistry   rawSpec: '',
+444 silly mapToRegistry   spec: 'latest',
+444 silly mapToRegistry   type: 'tag' }
+445 silly mapToRegistry uri https://registry.npmjs.org/duplexer
+446 verbose addRemoteTarball https://registry.npmjs.org/duplexer/-/duplexer-0.1.1.tgz not in flight; adding
+447 verbose addRemoteTarball [ 'https://registry.npmjs.org/duplexer/-/duplexer-0.1.1.tgz',
+447 verbose addRemoteTarball   'ace6ff808c1ce66b57d1ebf97977acb02334cfc1' ]
+448 info retry fetch attempt 1 at 17:10:17
+449 info attempt registry request try #1 at 17:10:17
+450 http fetch GET https://registry.npmjs.org/duplexer/-/duplexer-0.1.1.tgz
+451 info retry fetch attempt 1 at 17:10:17
+452 info attempt registry request try #1 at 17:10:17
+453 http fetch GET https://registry.npmjs.org/from/-/from-0.1.7.tgz
+454 http fetch 200 https://registry.npmjs.org/map-stream/-/map-stream-0.1.0.tgz
+455 silly fetchAndShaCheck shasum e56aa94c4c8055a16404a0674b78f215f7c8e194
+456 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\map-stream\-\map-stream-0.1.0.tgz not in flight; adding
+457 verbose addTmpTarball already have metadata; skipping unpack for map-stream@0.1.0
+458 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+459 http fetch 200 https://registry.npmjs.org/duplexer/-/duplexer-0.1.1.tgz
+460 silly cache afterAdd map-stream@0.1.0
+461 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\map-stream\0.1.0\package\package.json not in flight; writing
+462 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+463 silly fetchAndShaCheck shasum ace6ff808c1ce66b57d1ebf97977acb02334cfc1
+464 http fetch 200 https://registry.npmjs.org/from/-/from-0.1.7.tgz
+465 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\duplexer\-\duplexer-0.1.1.tgz not in flight; adding
+466 verbose addTmpTarball already have metadata; skipping unpack for duplexer@0.1.1
+467 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+468 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\map-stream\0.1.0\package\package.json written
+469 silly fetchAndShaCheck shasum 83c60afc58b9c56997007ed1a768b3ab303a44fe
+470 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\from\-\from-0.1.7.tgz not in flight; adding
+471 verbose addTmpTarball already have metadata; skipping unpack for from@0.1.7
+472 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+473 silly cache afterAdd duplexer@0.1.1
+474 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\duplexer\0.1.1\package\package.json not in flight; writing
+475 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+476 silly cache afterAdd from@0.1.7
+477 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\from\0.1.7\package\package.json not in flight; writing
+478 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+479 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\duplexer\0.1.1\package\package.json written
+480 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\from\0.1.7\package\package.json written
+481 http 200 https://registry.npmjs.org/split
+482 verbose headers { server: 'nginx/1.10.3',
+482 verbose headers   'content-type': 'application/json',
+482 verbose headers   'last-modified': 'Thu, 26 Oct 2017 06:33:17 GMT',
+482 verbose headers   etag: 'W/"59f181ad-5bab"',
+482 verbose headers   'content-encoding': 'gzip',
+482 verbose headers   'cache-control': 'max-age=300',
+482 verbose headers   'content-length': '3803',
+482 verbose headers   'accept-ranges': 'bytes',
+482 verbose headers   date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+482 verbose headers   via: '1.1 varnish',
+482 verbose headers   age: '223',
+482 verbose headers   connection: 'keep-alive',
+482 verbose headers   'x-served-by': 'cache-sin18030-SIN',
+482 verbose headers   'x-cache': 'HIT',
+482 verbose headers   'x-cache-hits': '4',
+482 verbose headers   'x-timer': 'S1509358218.061656,VS0,VE0',
+482 verbose headers   vary: 'Accept-Encoding, Accept' }
+483 silly get cb [ 200,
+483 silly get   { server: 'nginx/1.10.3',
+483 silly get     'content-type': 'application/json',
+483 silly get     'last-modified': 'Thu, 26 Oct 2017 06:33:17 GMT',
+483 silly get     etag: 'W/"59f181ad-5bab"',
+483 silly get     'content-encoding': 'gzip',
+483 silly get     'cache-control': 'max-age=300',
+483 silly get     'content-length': '3803',
+483 silly get     'accept-ranges': 'bytes',
+483 silly get     date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+483 silly get     via: '1.1 varnish',
+483 silly get     age: '223',
+483 silly get     connection: 'keep-alive',
+483 silly get     'x-served-by': 'cache-sin18030-SIN',
+483 silly get     'x-cache': 'HIT',
+483 silly get     'x-cache-hits': '4',
+483 silly get     'x-timer': 'S1509358218.061656,VS0,VE0',
+483 silly get     vary: 'Accept-Encoding, Accept' } ]
+484 verbose get saving split to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\split\.cache.json
+485 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+486 http 200 https://registry.npmjs.org/stream-combiner
+487 verbose headers { server: 'nginx/1.10.3',
+487 verbose headers   'content-type': 'application/json',
+487 verbose headers   'last-modified': 'Thu, 23 Mar 2017 04:50:36 GMT',
+487 verbose headers   etag: 'W/"58d3541c-2ca4"',
+487 verbose headers   'content-encoding': 'gzip',
+487 verbose headers   'cache-control': 'max-age=300',
+487 verbose headers   'content-length': '2117',
+487 verbose headers   'accept-ranges': 'bytes',
+487 verbose headers   date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+487 verbose headers   via: '1.1 varnish',
+487 verbose headers   age: '21',
+487 verbose headers   connection: 'keep-alive',
+487 verbose headers   'x-served-by': 'cache-sin18021-SIN',
+487 verbose headers   'x-cache': 'HIT',
+487 verbose headers   'x-cache-hits': '2',
+487 verbose headers   'x-timer': 'S1509358218.069106,VS0,VE0',
+487 verbose headers   vary: 'Accept-Encoding, Accept' }
+488 silly get cb [ 200,
+488 silly get   { server: 'nginx/1.10.3',
+488 silly get     'content-type': 'application/json',
+488 silly get     'last-modified': 'Thu, 23 Mar 2017 04:50:36 GMT',
+488 silly get     etag: 'W/"58d3541c-2ca4"',
+488 silly get     'content-encoding': 'gzip',
+488 silly get     'cache-control': 'max-age=300',
+488 silly get     'content-length': '2117',
+488 silly get     'accept-ranges': 'bytes',
+488 silly get     date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+488 silly get     via: '1.1 varnish',
+488 silly get     age: '21',
+488 silly get     connection: 'keep-alive',
+488 silly get     'x-served-by': 'cache-sin18021-SIN',
+488 silly get     'x-cache': 'HIT',
+488 silly get     'x-cache-hits': '2',
+488 silly get     'x-timer': 'S1509358218.069106,VS0,VE0',
+488 silly get     vary: 'Accept-Encoding, Accept' } ]
+489 verbose get saving stream-combiner to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\stream-combiner\.cache.json
+490 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+491 silly resolveWithNewModule split@0.2.10 checking installable status
+492 silly cache add args [ 'split@0.2', null ]
+493 verbose cache add spec split@0.2
+494 silly cache add parsed spec Result {
+494 silly cache add   raw: 'split@0.2',
+494 silly cache add   scope: null,
+494 silly cache add   escapedName: 'split',
+494 silly cache add   name: 'split',
+494 silly cache add   rawSpec: '0.2',
+494 silly cache add   spec: '>=0.2.0 <0.3.0',
+494 silly cache add   type: 'range' }
+495 silly addNamed split@>=0.2.0 <0.3.0
+496 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for split
+497 silly addNameRange { name: 'split', range: '>=0.2.0 <0.3.0', hasData: false }
+498 silly mapToRegistry name split
+499 silly mapToRegistry using default registry
+500 silly mapToRegistry registry https://registry.npmjs.org/
+501 silly mapToRegistry data Result {
+501 silly mapToRegistry   raw: 'split',
+501 silly mapToRegistry   scope: null,
+501 silly mapToRegistry   escapedName: 'split',
+501 silly mapToRegistry   name: 'split',
+501 silly mapToRegistry   rawSpec: '',
+501 silly mapToRegistry   spec: 'latest',
+501 silly mapToRegistry   type: 'tag' }
+502 silly mapToRegistry uri https://registry.npmjs.org/split
+503 verbose addNameRange registry:https://registry.npmjs.org/split not in flight; fetching
+504 http 200 https://registry.npmjs.org/pause-stream
+505 verbose headers { server: 'nginx/1.10.3',
+505 verbose headers   'content-type': 'application/json',
+505 verbose headers   'last-modified': 'Fri, 20 Sep 2013 22:11:51 GMT',
+505 verbose headers   etag: 'W/"523cc827-439e"',
+505 verbose headers   'content-encoding': 'gzip',
+505 verbose headers   'cache-control': 'max-age=300',
+505 verbose headers   'content-length': '1872',
+505 verbose headers   'accept-ranges': 'bytes',
+505 verbose headers   date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+505 verbose headers   via: '1.1 varnish',
+505 verbose headers   age: '219',
+505 verbose headers   connection: 'keep-alive',
+505 verbose headers   'x-served-by': 'cache-sin18022-SIN',
+505 verbose headers   'x-cache': 'HIT',
+505 verbose headers   'x-cache-hits': '3',
+505 verbose headers   'x-timer': 'S1509358218.070462,VS0,VE0',
+505 verbose headers   vary: 'Accept-Encoding, Accept' }
+506 silly get cb [ 200,
+506 silly get   { server: 'nginx/1.10.3',
+506 silly get     'content-type': 'application/json',
+506 silly get     'last-modified': 'Fri, 20 Sep 2013 22:11:51 GMT',
+506 silly get     etag: 'W/"523cc827-439e"',
+506 silly get     'content-encoding': 'gzip',
+506 silly get     'cache-control': 'max-age=300',
+506 silly get     'content-length': '1872',
+506 silly get     'accept-ranges': 'bytes',
+506 silly get     date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+506 silly get     via: '1.1 varnish',
+506 silly get     age: '219',
+506 silly get     connection: 'keep-alive',
+506 silly get     'x-served-by': 'cache-sin18022-SIN',
+506 silly get     'x-cache': 'HIT',
+506 silly get     'x-cache-hits': '3',
+506 silly get     'x-timer': 'S1509358218.070462,VS0,VE0',
+506 silly get     vary: 'Accept-Encoding, Accept' } ]
+507 verbose get saving pause-stream to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\pause-stream\.cache.json
+508 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+509 verbose get https://registry.npmjs.org/split not expired, no request
+510 silly addNameRange number 2 { name: 'split', range: '>=0.2.0 <0.3.0', hasData: true }
+511 silly addNameRange versions [ 'split',
+511 silly addNameRange   [ '0.0.0',
+511 silly addNameRange     '0.1.0',
+511 silly addNameRange     '0.1.1',
+511 silly addNameRange     '0.1.2',
+511 silly addNameRange     '0.2.0',
+511 silly addNameRange     '0.2.1',
+511 silly addNameRange     '0.2.3',
+511 silly addNameRange     '0.2.4',
+511 silly addNameRange     '0.2.5',
+511 silly addNameRange     '0.2.6',
+511 silly addNameRange     '0.2.7',
+511 silly addNameRange     '0.2.8',
+511 silly addNameRange     '0.2.9',
+511 silly addNameRange     '0.2.10',
+511 silly addNameRange     '0.3.0',
+511 silly addNameRange     '0.3.1',
+511 silly addNameRange     '0.3.2',
+511 silly addNameRange     '0.3.3',
+511 silly addNameRange     '1.0.0',
+511 silly addNameRange     '1.0.1' ] ]
+512 silly addNamed split@0.2.10
+513 verbose addNamed "0.2.10" is a plain semver version for split
+514 silly resolveWithNewModule stream-combiner@0.0.4 checking installable status
+515 silly cache add args [ 'stream-combiner@~0.0.4', null ]
+516 verbose cache add spec stream-combiner@~0.0.4
+517 silly cache add parsed spec Result {
+517 silly cache add   raw: 'stream-combiner@~0.0.4',
+517 silly cache add   scope: null,
+517 silly cache add   escapedName: 'stream-combiner',
+517 silly cache add   name: 'stream-combiner',
+517 silly cache add   rawSpec: '~0.0.4',
+517 silly cache add   spec: '>=0.0.4 <0.1.0',
+517 silly cache add   type: 'range' }
+518 silly addNamed stream-combiner@>=0.0.4 <0.1.0
+519 verbose addNamed ">=0.0.4 <0.1.0" is a valid semver range for stream-combiner
+520 silly addNameRange { name: 'stream-combiner',
+520 silly addNameRange   range: '>=0.0.4 <0.1.0',
+520 silly addNameRange   hasData: false }
+521 silly mapToRegistry name stream-combiner
+522 silly mapToRegistry using default registry
+523 silly mapToRegistry registry https://registry.npmjs.org/
+524 silly mapToRegistry data Result {
+524 silly mapToRegistry   raw: 'stream-combiner',
+524 silly mapToRegistry   scope: null,
+524 silly mapToRegistry   escapedName: 'stream-combiner',
+524 silly mapToRegistry   name: 'stream-combiner',
+524 silly mapToRegistry   rawSpec: '',
+524 silly mapToRegistry   spec: 'latest',
+524 silly mapToRegistry   type: 'tag' }
+525 silly mapToRegistry uri https://registry.npmjs.org/stream-combiner
+526 verbose addNameRange registry:https://registry.npmjs.org/stream-combiner not in flight; fetching
+527 verbose get https://registry.npmjs.org/stream-combiner not expired, no request
+528 silly addNameRange number 2 { name: 'stream-combiner',
+528 silly addNameRange   range: '>=0.0.4 <0.1.0',
+528 silly addNameRange   hasData: true }
+529 silly addNameRange versions [ 'stream-combiner',
+529 silly addNameRange   [ '0.0.0',
+529 silly addNameRange     '0.0.1',
+529 silly addNameRange     '0.0.2',
+529 silly addNameRange     '0.0.4',
+529 silly addNameRange     '0.1.0',
+529 silly addNameRange     '0.2.0',
+529 silly addNameRange     '0.2.1',
+529 silly addNameRange     '0.2.2' ] ]
+530 silly addNamed stream-combiner@0.0.4
+531 verbose addNamed "0.0.4" is a plain semver version for stream-combiner
+532 http 200 https://registry.npmjs.org/through
+533 verbose headers { server: 'nginx/1.10.3',
+533 verbose headers   'content-type': 'application/json',
+533 verbose headers   'last-modified': 'Thu, 26 Oct 2017 06:03:38 GMT',
+533 verbose headers   etag: 'W/"59f17aba-74e7"',
+533 verbose headers   'content-encoding': 'gzip',
+533 verbose headers   'cache-control': 'max-age=300',
+533 verbose headers   'content-length': '4136',
+533 verbose headers   'accept-ranges': 'bytes',
+533 verbose headers   date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+533 verbose headers   via: '1.1 varnish',
+533 verbose headers   age: '4',
+533 verbose headers   connection: 'keep-alive',
+533 verbose headers   'x-served-by': 'cache-sin18024-SIN',
+533 verbose headers   'x-cache': 'HIT',
+533 verbose headers   'x-cache-hits': '1',
+533 verbose headers   'x-timer': 'S1509358218.078160,VS0,VE0',
+533 verbose headers   vary: 'Accept-Encoding, Accept' }
+534 silly get cb [ 200,
+534 silly get   { server: 'nginx/1.10.3',
+534 silly get     'content-type': 'application/json',
+534 silly get     'last-modified': 'Thu, 26 Oct 2017 06:03:38 GMT',
+534 silly get     etag: 'W/"59f17aba-74e7"',
+534 silly get     'content-encoding': 'gzip',
+534 silly get     'cache-control': 'max-age=300',
+534 silly get     'content-length': '4136',
+534 silly get     'accept-ranges': 'bytes',
+534 silly get     date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+534 silly get     via: '1.1 varnish',
+534 silly get     age: '4',
+534 silly get     connection: 'keep-alive',
+534 silly get     'x-served-by': 'cache-sin18024-SIN',
+534 silly get     'x-cache': 'HIT',
+534 silly get     'x-cache-hits': '1',
+534 silly get     'x-timer': 'S1509358218.078160,VS0,VE0',
+534 silly get     vary: 'Accept-Encoding, Accept' } ]
+535 verbose get saving through to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\through\.cache.json
+536 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+537 silly mapToRegistry name split
+538 silly mapToRegistry using default registry
+539 silly mapToRegistry registry https://registry.npmjs.org/
+540 silly mapToRegistry data Result {
+540 silly mapToRegistry   raw: 'split',
+540 silly mapToRegistry   scope: null,
+540 silly mapToRegistry   escapedName: 'split',
+540 silly mapToRegistry   name: 'split',
+540 silly mapToRegistry   rawSpec: '',
+540 silly mapToRegistry   spec: 'latest',
+540 silly mapToRegistry   type: 'tag' }
+541 silly mapToRegistry uri https://registry.npmjs.org/split
+542 verbose addRemoteTarball https://registry.npmjs.org/split/-/split-0.2.10.tgz not in flight; adding
+543 verbose addRemoteTarball [ 'https://registry.npmjs.org/split/-/split-0.2.10.tgz',
+543 verbose addRemoteTarball   '67097c601d697ce1368f418f06cd201cf0521a57' ]
+544 silly mapToRegistry name stream-combiner
+545 silly mapToRegistry using default registry
+546 silly mapToRegistry registry https://registry.npmjs.org/
+547 silly mapToRegistry data Result {
+547 silly mapToRegistry   raw: 'stream-combiner',
+547 silly mapToRegistry   scope: null,
+547 silly mapToRegistry   escapedName: 'stream-combiner',
+547 silly mapToRegistry   name: 'stream-combiner',
+547 silly mapToRegistry   rawSpec: '',
+547 silly mapToRegistry   spec: 'latest',
+547 silly mapToRegistry   type: 'tag' }
+548 silly mapToRegistry uri https://registry.npmjs.org/stream-combiner
+549 verbose addRemoteTarball https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.0.4.tgz not in flight; adding
+550 verbose addRemoteTarball [ 'https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.0.4.tgz',
+550 verbose addRemoteTarball   '4d5e433c185261dde623ca3f44c586bcf5c4ad14' ]
+551 info retry fetch attempt 1 at 17:10:17
+552 info attempt registry request try #1 at 17:10:17
+553 http fetch GET https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.0.4.tgz
+554 info retry fetch attempt 1 at 17:10:17
+555 info attempt registry request try #1 at 17:10:17
+556 http fetch GET https://registry.npmjs.org/split/-/split-0.2.10.tgz
+557 silly resolveWithNewModule pause-stream@0.0.11 checking installable status
+558 silly cache add args [ 'pause-stream@0.0.11', null ]
+559 verbose cache add spec pause-stream@0.0.11
+560 silly cache add parsed spec Result {
+560 silly cache add   raw: 'pause-stream@0.0.11',
+560 silly cache add   scope: null,
+560 silly cache add   escapedName: 'pause-stream',
+560 silly cache add   name: 'pause-stream',
+560 silly cache add   rawSpec: '0.0.11',
+560 silly cache add   spec: '0.0.11',
+560 silly cache add   type: 'version' }
+561 silly addNamed pause-stream@0.0.11
+562 verbose addNamed "0.0.11" is a plain semver version for pause-stream
+563 silly mapToRegistry name pause-stream
+564 silly mapToRegistry using default registry
+565 silly mapToRegistry registry https://registry.npmjs.org/
+566 silly mapToRegistry data Result {
+566 silly mapToRegistry   raw: 'pause-stream',
+566 silly mapToRegistry   scope: null,
+566 silly mapToRegistry   escapedName: 'pause-stream',
+566 silly mapToRegistry   name: 'pause-stream',
+566 silly mapToRegistry   rawSpec: '',
+566 silly mapToRegistry   spec: 'latest',
+566 silly mapToRegistry   type: 'tag' }
+567 silly mapToRegistry uri https://registry.npmjs.org/pause-stream
+568 verbose addNameVersion registry:https://registry.npmjs.org/pause-stream not in flight; fetching
+569 verbose get https://registry.npmjs.org/pause-stream not expired, no request
+570 silly mapToRegistry name pause-stream
+571 silly mapToRegistry using default registry
+572 silly mapToRegistry registry https://registry.npmjs.org/
+573 silly mapToRegistry data Result {
+573 silly mapToRegistry   raw: 'pause-stream',
+573 silly mapToRegistry   scope: null,
+573 silly mapToRegistry   escapedName: 'pause-stream',
+573 silly mapToRegistry   name: 'pause-stream',
+573 silly mapToRegistry   rawSpec: '',
+573 silly mapToRegistry   spec: 'latest',
+573 silly mapToRegistry   type: 'tag' }
+574 silly mapToRegistry uri https://registry.npmjs.org/pause-stream
+575 verbose addRemoteTarball https://registry.npmjs.org/pause-stream/-/pause-stream-0.0.11.tgz not in flight; adding
+576 verbose addRemoteTarball [ 'https://registry.npmjs.org/pause-stream/-/pause-stream-0.0.11.tgz',
+576 verbose addRemoteTarball   'fe5a34b0cbce12b5aa6a2b403ee2e73b602f1445' ]
+577 info retry fetch attempt 1 at 17:10:17
+578 info attempt registry request try #1 at 17:10:17
+579 http fetch GET https://registry.npmjs.org/pause-stream/-/pause-stream-0.0.11.tgz
+580 silly resolveWithNewModule through@2.3.8 checking installable status
+581 silly cache add args [ 'through@~2.3.1', null ]
+582 verbose cache add spec through@~2.3.1
+583 silly cache add parsed spec Result {
+583 silly cache add   raw: 'through@~2.3.1',
+583 silly cache add   scope: null,
+583 silly cache add   escapedName: 'through',
+583 silly cache add   name: 'through',
+583 silly cache add   rawSpec: '~2.3.1',
+583 silly cache add   spec: '>=2.3.1 <2.4.0',
+583 silly cache add   type: 'range' }
+584 silly addNamed through@>=2.3.1 <2.4.0
+585 verbose addNamed ">=2.3.1 <2.4.0" is a valid semver range for through
+586 silly addNameRange { name: 'through', range: '>=2.3.1 <2.4.0', hasData: false }
+587 silly mapToRegistry name through
+588 silly mapToRegistry using default registry
+589 silly mapToRegistry registry https://registry.npmjs.org/
+590 silly mapToRegistry data Result {
+590 silly mapToRegistry   raw: 'through',
+590 silly mapToRegistry   scope: null,
+590 silly mapToRegistry   escapedName: 'through',
+590 silly mapToRegistry   name: 'through',
+590 silly mapToRegistry   rawSpec: '',
+590 silly mapToRegistry   spec: 'latest',
+590 silly mapToRegistry   type: 'tag' }
+591 silly mapToRegistry uri https://registry.npmjs.org/through
+592 verbose addNameRange registry:https://registry.npmjs.org/through not in flight; fetching
+593 verbose get https://registry.npmjs.org/through not expired, no request
+594 silly addNameRange number 2 { name: 'through', range: '>=2.3.1 <2.4.0', hasData: true }
+595 silly addNameRange versions [ 'through',
+595 silly addNameRange   [ '0.0.1',
+595 silly addNameRange     '0.0.2',
+595 silly addNameRange     '0.0.3',
+595 silly addNameRange     '0.0.4',
+595 silly addNameRange     '0.1.0',
+595 silly addNameRange     '0.1.1',
+595 silly addNameRange     '0.1.2',
+595 silly addNameRange     '0.1.3',
+595 silly addNameRange     '0.1.4',
+595 silly addNameRange     '1.0.0',
+595 silly addNameRange     '1.1.0',
+595 silly addNameRange     '1.1.1',
+595 silly addNameRange     '1.1.2',
+595 silly addNameRange     '2.0.0',
+595 silly addNameRange     '2.1.0',
+595 silly addNameRange     '2.2.0',
+595 silly addNameRange     '2.2.1',
+595 silly addNameRange     '2.2.2',
+595 silly addNameRange     '2.2.4',
+595 silly addNameRange     '2.2.5',
+595 silly addNameRange     '2.2.6',
+595 silly addNameRange     '2.2.7',
+595 silly addNameRange     '2.3.1',
+595 silly addNameRange     '2.3.2',
+595 silly addNameRange     '2.3.3',
+595 silly addNameRange     '2.3.4',
+595 silly addNameRange     '2.3.6',
+595 silly addNameRange     '2.3.7',
+595 silly addNameRange     '2.3.8' ] ]
+596 silly addNamed through@2.3.8
+597 verbose addNamed "2.3.8" is a plain semver version for through
+598 http fetch 200 https://registry.npmjs.org/stream-combiner/-/stream-combiner-0.0.4.tgz
+599 http fetch 200 https://registry.npmjs.org/split/-/split-0.2.10.tgz
+600 silly fetchAndShaCheck shasum 4d5e433c185261dde623ca3f44c586bcf5c4ad14
+601 silly fetchAndShaCheck shasum 67097c601d697ce1368f418f06cd201cf0521a57
+602 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\stream-combiner\-\stream-combiner-0.0.4.tgz not in flight; adding
+603 verbose addTmpTarball already have metadata; skipping unpack for stream-combiner@0.0.4
+604 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+605 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\split\-\split-0.2.10.tgz not in flight; adding
+606 verbose addTmpTarball already have metadata; skipping unpack for split@0.2.10
+607 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+608 silly cache afterAdd through@2.3.8
+609 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\through\2.3.8\package\package.json not in flight; writing
+610 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+611 http fetch 200 https://registry.npmjs.org/pause-stream/-/pause-stream-0.0.11.tgz
+612 silly cache afterAdd split@0.2.10
+613 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\split\0.2.10\package\package.json not in flight; writing
+614 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+615 silly cache afterAdd stream-combiner@0.0.4
+616 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\stream-combiner\0.0.4\package\package.json not in flight; writing
+617 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+618 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\through\2.3.8\package\package.json written
+619 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\split\0.2.10\package\package.json written
+620 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\stream-combiner\0.0.4\package\package.json written
+621 silly fetchAndShaCheck shasum fe5a34b0cbce12b5aa6a2b403ee2e73b602f1445
+622 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\pause-stream\-\pause-stream-0.0.11.tgz not in flight; adding
+623 verbose addTmpTarball already have metadata; skipping unpack for pause-stream@0.0.11
+624 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+625 silly cache afterAdd pause-stream@0.0.11
+626 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\pause-stream\0.0.11\package\package.json not in flight; writing
+627 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+628 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\pause-stream\0.0.11\package\package.json written
+629 silly fetchNamedPackageData buffers
+630 silly mapToRegistry name buffers
+631 silly mapToRegistry using default registry
+632 silly mapToRegistry registry https://registry.npmjs.org/
+633 silly mapToRegistry data Result {
+633 silly mapToRegistry   raw: 'buffers',
+633 silly mapToRegistry   scope: null,
+633 silly mapToRegistry   escapedName: 'buffers',
+633 silly mapToRegistry   name: 'buffers',
+633 silly mapToRegistry   rawSpec: '',
+633 silly mapToRegistry   spec: 'latest',
+633 silly mapToRegistry   type: 'tag' }
+634 silly mapToRegistry uri https://registry.npmjs.org/buffers
+635 verbose request uri https://registry.npmjs.org/buffers
+636 verbose request no auth needed
+637 info attempt registry request try #1 at 17:10:17
+638 http request GET https://registry.npmjs.org/buffers
+639 http 200 https://registry.npmjs.org/buffers
+640 verbose headers { server: 'nginx/1.10.3',
+640 verbose headers   'content-type': 'application/json',
+640 verbose headers   'last-modified': 'Wed, 12 Oct 2011 23:33:33 GMT',
+640 verbose headers   etag: 'W/"4e9623cd-13c4"',
+640 verbose headers   'content-encoding': 'gzip',
+640 verbose headers   'cache-control': 'max-age=300',
+640 verbose headers   'content-length': '1015',
+640 verbose headers   'accept-ranges': 'bytes',
+640 verbose headers   date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+640 verbose headers   via: '1.1 varnish',
+640 verbose headers   age: '66',
+640 verbose headers   connection: 'keep-alive',
+640 verbose headers   'x-served-by': 'cache-sin18030-SIN',
+640 verbose headers   'x-cache': 'HIT',
+640 verbose headers   'x-cache-hits': '2',
+640 verbose headers   'x-timer': 'S1509358218.292676,VS0,VE0',
+640 verbose headers   vary: 'Accept-Encoding, Accept' }
+641 silly get cb [ 200,
+641 silly get   { server: 'nginx/1.10.3',
+641 silly get     'content-type': 'application/json',
+641 silly get     'last-modified': 'Wed, 12 Oct 2011 23:33:33 GMT',
+641 silly get     etag: 'W/"4e9623cd-13c4"',
+641 silly get     'content-encoding': 'gzip',
+641 silly get     'cache-control': 'max-age=300',
+641 silly get     'content-length': '1015',
+641 silly get     'accept-ranges': 'bytes',
+641 silly get     date: 'Mon, 30 Oct 2017 10:10:18 GMT',
+641 silly get     via: '1.1 varnish',
+641 silly get     age: '66',
+641 silly get     connection: 'keep-alive',
+641 silly get     'x-served-by': 'cache-sin18030-SIN',
+641 silly get     'x-cache': 'HIT',
+641 silly get     'x-cache-hits': '2',
+641 silly get     'x-timer': 'S1509358218.292676,VS0,VE0',
+641 silly get     vary: 'Accept-Encoding, Accept' } ]
+642 verbose get saving buffers to C:\Users\KIK\AppData\Roaming\npm-cache\registry.npmjs.org\buffers\.cache.json
+643 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+644 silly resolveWithNewModule buffers@0.1.1 checking installable status
+645 silly cache add args [ 'buffers@0.1.1', null ]
+646 verbose cache add spec buffers@0.1.1
+647 silly cache add parsed spec Result {
+647 silly cache add   raw: 'buffers@0.1.1',
+647 silly cache add   scope: null,
+647 silly cache add   escapedName: 'buffers',
+647 silly cache add   name: 'buffers',
+647 silly cache add   rawSpec: '0.1.1',
+647 silly cache add   spec: '0.1.1',
+647 silly cache add   type: 'version' }
+648 silly addNamed buffers@0.1.1
+649 verbose addNamed "0.1.1" is a plain semver version for buffers
+650 silly mapToRegistry name buffers
+651 silly mapToRegistry using default registry
+652 silly mapToRegistry registry https://registry.npmjs.org/
+653 silly mapToRegistry data Result {
+653 silly mapToRegistry   raw: 'buffers',
+653 silly mapToRegistry   scope: null,
+653 silly mapToRegistry   escapedName: 'buffers',
+653 silly mapToRegistry   name: 'buffers',
+653 silly mapToRegistry   rawSpec: '',
+653 silly mapToRegistry   spec: 'latest',
+653 silly mapToRegistry   type: 'tag' }
+654 silly mapToRegistry uri https://registry.npmjs.org/buffers
+655 verbose addNameVersion registry:https://registry.npmjs.org/buffers not in flight; fetching
+656 verbose get https://registry.npmjs.org/buffers not expired, no request
+657 silly mapToRegistry name buffers
+658 silly mapToRegistry using default registry
+659 silly mapToRegistry registry https://registry.npmjs.org/
+660 silly mapToRegistry data Result {
+660 silly mapToRegistry   raw: 'buffers',
+660 silly mapToRegistry   scope: null,
+660 silly mapToRegistry   escapedName: 'buffers',
+660 silly mapToRegistry   name: 'buffers',
+660 silly mapToRegistry   rawSpec: '',
+660 silly mapToRegistry   spec: 'latest',
+660 silly mapToRegistry   type: 'tag' }
+661 silly mapToRegistry uri https://registry.npmjs.org/buffers
+662 verbose addRemoteTarball https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz not in flight; adding
+663 verbose addRemoteTarball [ 'https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz',
+663 verbose addRemoteTarball   'b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb' ]
+664 info retry fetch attempt 1 at 17:10:17
+665 info attempt registry request try #1 at 17:10:17
+666 http fetch GET https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz
+667 http fetch 200 https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz
+668 silly fetchAndShaCheck shasum b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb
+669 verbose addTmpTarball C:\Users\KIK\AppData\Local\Temp\npm-2648-a032c416\registry.npmjs.org\buffers\-\buffers-0.1.1.tgz not in flight; adding
+670 verbose addTmpTarball already have metadata; skipping unpack for buffers@0.1.1
+671 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+672 silly cache afterAdd buffers@0.1.1
+673 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\buffers\0.1.1\package\package.json not in flight; writing
+674 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+675 verbose afterAdd C:\Users\KIK\AppData\Roaming\npm-cache\buffers\0.1.1\package\package.json written
+676 silly loadAllDepsIntoIdealTree Finishing
+677 silly loadIdealTree Finishing
+678 silly currentTree com.example.hello@1.0.0
+678 silly currentTree +-- android-versions@1.2.1
+678 silly currentTree +-- cordova-android@6.3.0
+678 silly currentTree | +-- abbrev@1.1.0
+678 silly currentTree | +-- ansi@0.3.1
+678 silly currentTree | +-- balanced-match@1.0.0
+678 silly currentTree | +-- base64-js@0.0.8
+678 silly currentTree | +-- big-integer@1.6.25
+678 silly currentTree | +-- bplist-parser@0.1.1
+678 silly currentTree | +-- brace-expansion@1.1.8
+678 silly currentTree | +-- concat-map@0.0.1
+678 silly currentTree | +-- cordova-common@2.1.0
+678 silly currentTree | +-- cordova-registry-mapper@1.1.15
+678 silly currentTree | +-- elementtree@0.1.6
+678 silly currentTree | +-- glob@5.0.15
+678 silly currentTree | +-- inflight@1.0.6
+678 silly currentTree | +-- inherits@2.0.3
+678 silly currentTree | +-- lodash@3.10.1
+678 silly currentTree | +-- minimatch@3.0.4
+678 silly currentTree | +-- nopt@3.0.6
+678 silly currentTree | +-- once@1.4.0
+678 silly currentTree | +-- os-homedir@1.0.2
+678 silly currentTree | +-- os-tmpdir@1.0.2
+678 silly currentTree | +-- osenv@0.1.4
+678 silly currentTree | +-- path-is-absolute@1.0.1
+678 silly currentTree | +-- plist@1.2.0
+678 silly currentTree | +-- properties-parser@0.2.3
+678 silly currentTree | +-- q@1.5.0
+678 silly currentTree | +-- sax@0.3.5
+678 silly currentTree | +-- semver@5.4.1
+678 silly currentTree | +-- shelljs@0.5.3
+678 silly currentTree | +-- underscore@1.8.3
+678 silly currentTree | +-- unorm@1.4.1
+678 silly currentTree | +-- util-deprecate@1.0.2
+678 silly currentTree | +-- wrappy@1.0.2
+678 silly currentTree | +-- xmlbuilder@4.0.0
+678 silly currentTree | `-- xmldom@0.1.27
+678 silly currentTree +-- cordova-plugin-camera@2.4.1
+678 silly currentTree +-- cordova-plugin-compat@1.2.0
+678 silly currentTree +-- cordova-plugin-geolocation@2.4.3
+678 silly currentTree +-- cordova-plugin-whitelist@1.3.2
+678 silly currentTree `-- phonegap-plugin-barcodescanner@6.0.8
+679 silly idealTree com.example.hello@1.0.0
+679 silly idealTree +-- android-versions@1.2.1
+679 silly idealTree +-- buffers@0.1.1
+679 silly idealTree +-- camera@0.0.5
+679 silly idealTree +-- coffee-script@1.7.1
+679 silly idealTree +-- cordova-android@6.3.0
+679 silly idealTree | +-- abbrev@1.1.0
+679 silly idealTree | +-- ansi@0.3.1
+679 silly idealTree | +-- balanced-match@1.0.0
+679 silly idealTree | +-- base64-js@0.0.8
+679 silly idealTree | +-- big-integer@1.6.25
+679 silly idealTree | +-- bplist-parser@0.1.1
+679 silly idealTree | +-- brace-expansion@1.1.8
+679 silly idealTree | +-- concat-map@0.0.1
+679 silly idealTree | +-- cordova-common@2.1.0
+679 silly idealTree | +-- cordova-registry-mapper@1.1.15
+679 silly idealTree | +-- elementtree@0.1.6
+679 silly idealTree | +-- glob@5.0.15
+679 silly idealTree | +-- inflight@1.0.6
+679 silly idealTree | +-- inherits@2.0.3
+679 silly idealTree | +-- lodash@3.10.1
+679 silly idealTree | +-- minimatch@3.0.4
+679 silly idealTree | +-- nopt@3.0.6
+679 silly idealTree | +-- once@1.4.0
+679 silly idealTree | +-- os-homedir@1.0.2
+679 silly idealTree | +-- os-tmpdir@1.0.2
+679 silly idealTree | +-- osenv@0.1.4
+679 silly idealTree | +-- path-is-absolute@1.0.1
+679 silly idealTree | +-- plist@1.2.0
+679 silly idealTree | +-- properties-parser@0.2.3
+679 silly idealTree | +-- q@1.5.0
+679 silly idealTree | +-- sax@0.3.5
+679 silly idealTree | +-- semver@5.4.1
+679 silly idealTree | +-- shelljs@0.5.3
+679 silly idealTree | +-- underscore@1.8.3
+679 silly idealTree | +-- unorm@1.4.1
+679 silly idealTree | +-- util-deprecate@1.0.2
+679 silly idealTree | +-- wrappy@1.0.2
+679 silly idealTree | +-- xmlbuilder@4.0.0
+679 silly idealTree | `-- xmldom@0.1.27
+679 silly idealTree +-- cordova-plugin-camera@2.4.1
+679 silly idealTree +-- cordova-plugin-compat@1.2.0
+679 silly idealTree +-- cordova-plugin-geolocation@2.4.3
+679 silly idealTree +-- cordova-plugin-whitelist@1.3.2
+679 silly idealTree +-- duplexer@0.1.1
+679 silly idealTree +-- event-stream@3.1.7
+679 silly idealTree +-- from@0.1.7
+679 silly idealTree +-- map-stream@0.1.0
+679 silly idealTree +-- mkdirp@0.3.5
+679 silly idealTree +-- opencv@0.5.0
+679 silly idealTree +-- pause-stream@0.0.11
+679 silly idealTree +-- phonegap-plugin-barcodescanner@6.0.8
+679 silly idealTree +-- split@0.2.10
+679 silly idealTree +-- stream-combiner@0.0.4
+679 silly idealTree `-- through@2.3.8
+680 silly generateActionsToTake Starting
+681 silly install generateActionsToTake
+682 silly generateActionsToTake Finishing
+683 silly diffTrees action count 13
+684 silly diffTrees add buffers@0.1.1
+685 silly diffTrees add duplexer@0.1.1
+686 silly diffTrees add from@0.1.7
+687 silly diffTrees add map-stream@0.1.0
+688 silly diffTrees add mkdirp@0.3.5
+689 silly diffTrees add stream-combiner@0.0.4
+690 silly diffTrees add through@2.3.8
+691 silly diffTrees add pause-stream@0.0.11
+692 silly diffTrees add split@0.2.10
+693 silly diffTrees add coffee-script@1.7.1
+694 silly diffTrees add event-stream@3.1.7
+695 silly diffTrees add opencv@0.5.0
+696 silly diffTrees add camera@0.0.5
+697 silly decomposeActions action count 104
+698 silly decomposeActions fetch buffers@0.1.1
+699 silly decomposeActions extract buffers@0.1.1
+700 silly decomposeActions test buffers@0.1.1
+701 silly decomposeActions preinstall buffers@0.1.1
+702 silly decomposeActions build buffers@0.1.1
+703 silly decomposeActions install buffers@0.1.1
+704 silly decomposeActions postinstall buffers@0.1.1
+705 silly decomposeActions finalize buffers@0.1.1
+706 silly decomposeActions fetch duplexer@0.1.1
+707 silly decomposeActions extract duplexer@0.1.1
+708 silly decomposeActions test duplexer@0.1.1
+709 silly decomposeActions preinstall duplexer@0.1.1
+710 silly decomposeActions build duplexer@0.1.1
+711 silly decomposeActions install duplexer@0.1.1
+712 silly decomposeActions postinstall duplexer@0.1.1
+713 silly decomposeActions finalize duplexer@0.1.1
+714 silly decomposeActions fetch from@0.1.7
+715 silly decomposeActions extract from@0.1.7
+716 silly decomposeActions test from@0.1.7
+717 silly decomposeActions preinstall from@0.1.7
+718 silly decomposeActions build from@0.1.7
+719 silly decomposeActions install from@0.1.7
+720 silly decomposeActions postinstall from@0.1.7
+721 silly decomposeActions finalize from@0.1.7
+722 silly decomposeActions fetch map-stream@0.1.0
+723 silly decomposeActions extract map-stream@0.1.0
+724 silly decomposeActions test map-stream@0.1.0
+725 silly decomposeActions preinstall map-stream@0.1.0
+726 silly decomposeActions build map-stream@0.1.0
+727 silly decomposeActions install map-stream@0.1.0
+728 silly decomposeActions postinstall map-stream@0.1.0
+729 silly decomposeActions finalize map-stream@0.1.0
+730 silly decomposeActions fetch mkdirp@0.3.5
+731 silly decomposeActions extract mkdirp@0.3.5
+732 silly decomposeActions test mkdirp@0.3.5
+733 silly decomposeActions preinstall mkdirp@0.3.5
+734 silly decomposeActions build mkdirp@0.3.5
+735 silly decomposeActions install mkdirp@0.3.5
+736 silly decomposeActions postinstall mkdirp@0.3.5
+737 silly decomposeActions finalize mkdirp@0.3.5
+738 silly decomposeActions fetch stream-combiner@0.0.4
+739 silly decomposeActions extract stream-combiner@0.0.4
+740 silly decomposeActions test stream-combiner@0.0.4
+741 silly decomposeActions preinstall stream-combiner@0.0.4
+742 silly decomposeActions build stream-combiner@0.0.4
+743 silly decomposeActions install stream-combiner@0.0.4
+744 silly decomposeActions postinstall stream-combiner@0.0.4
+745 silly decomposeActions finalize stream-combiner@0.0.4
+746 silly decomposeActions fetch through@2.3.8
+747 silly decomposeActions extract through@2.3.8
+748 silly decomposeActions test through@2.3.8
+749 silly decomposeActions preinstall through@2.3.8
+750 silly decomposeActions build through@2.3.8
+751 silly decomposeActions install through@2.3.8
+752 silly decomposeActions postinstall through@2.3.8
+753 silly decomposeActions finalize through@2.3.8
+754 silly decomposeActions fetch pause-stream@0.0.11
+755 silly decomposeActions extract pause-stream@0.0.11
+756 silly decomposeActions test pause-stream@0.0.11
+757 silly decomposeActions preinstall pause-stream@0.0.11
+758 silly decomposeActions build pause-stream@0.0.11
+759 silly decomposeActions install pause-stream@0.0.11
+760 silly decomposeActions postinstall pause-stream@0.0.11
+761 silly decomposeActions finalize pause-stream@0.0.11
+762 silly decomposeActions fetch split@0.2.10
+763 silly decomposeActions extract split@0.2.10
+764 silly decomposeActions test split@0.2.10
+765 silly decomposeActions preinstall split@0.2.10
+766 silly decomposeActions build split@0.2.10
+767 silly decomposeActions install split@0.2.10
+768 silly decomposeActions postinstall split@0.2.10
+769 silly decomposeActions finalize split@0.2.10
+770 silly decomposeActions fetch coffee-script@1.7.1
+771 silly decomposeActions extract coffee-script@1.7.1
+772 silly decomposeActions test coffee-script@1.7.1
+773 silly decomposeActions preinstall coffee-script@1.7.1
+774 silly decomposeActions build coffee-script@1.7.1
+775 silly decomposeActions install coffee-script@1.7.1
+776 silly decomposeActions postinstall coffee-script@1.7.1
+777 silly decomposeActions finalize coffee-script@1.7.1
+778 silly decomposeActions fetch event-stream@3.1.7
+779 silly decomposeActions extract event-stream@3.1.7
+780 silly decomposeActions test event-stream@3.1.7
+781 silly decomposeActions preinstall event-stream@3.1.7
+782 silly decomposeActions build event-stream@3.1.7
+783 silly decomposeActions install event-stream@3.1.7
+784 silly decomposeActions postinstall event-stream@3.1.7
+785 silly decomposeActions finalize event-stream@3.1.7
+786 silly decomposeActions fetch opencv@0.5.0
+787 silly decomposeActions extract opencv@0.5.0
+788 silly decomposeActions test opencv@0.5.0
+789 silly decomposeActions preinstall opencv@0.5.0
+790 silly decomposeActions build opencv@0.5.0
+791 silly decomposeActions install opencv@0.5.0
+792 silly decomposeActions postinstall opencv@0.5.0
+793 silly decomposeActions finalize opencv@0.5.0
+794 silly decomposeActions fetch camera@0.0.5
+795 silly decomposeActions extract camera@0.0.5
+796 silly decomposeActions test camera@0.0.5
+797 silly decomposeActions preinstall camera@0.0.5
+798 silly decomposeActions build camera@0.0.5
+799 silly decomposeActions install camera@0.0.5
+800 silly decomposeActions postinstall camera@0.0.5
+801 silly decomposeActions finalize camera@0.0.5
+802 silly runTopLevelLifecycles Starting
+803 silly executeActions Starting
+804 silly install executeActions
+805 silly doSerial global-install 0
+806 silly doParallel fetch 13
+807 verbose correctMkdir C:\Users\KIK\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+808 verbose lock using C:\Users\KIK\AppData\Roaming\npm-cache\_locks\staging-b3391f37122f5afc.lock for C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging
+809 silly doParallel extract 13
+810 silly extract buffers@0.1.1
+811 silly extract duplexer@0.1.1
+812 silly extract from@0.1.7
+813 silly extract map-stream@0.1.0
+814 silly extract mkdirp@0.3.5
+815 silly extract stream-combiner@0.0.4
+816 silly extract through@2.3.8
+817 silly extract pause-stream@0.0.11
+818 silly extract split@0.2.10
+819 silly extract coffee-script@1.7.1
+820 silly extract event-stream@3.1.7
+821 silly extract opencv@0.5.0
+822 silly extract camera@0.0.5
+823 verbose unbuild node_modules\.staging\from-781e3add
+824 verbose unbuild node_modules\.staging\buffers-b4db6735
+825 verbose unbuild node_modules\.staging\map-stream-3cf7db53
+826 verbose unbuild node_modules\.staging\duplexer-4fbfffaf
+827 verbose unbuild node_modules\.staging\through-d1fe740a
+828 verbose unbuild node_modules\.staging\mkdirp-bc2c5c66
+829 verbose unbuild node_modules\.staging\stream-combiner-5f58aece
+830 verbose unbuild node_modules\.staging\split-daf0dc19
+831 verbose unbuild node_modules\.staging\pause-stream-4b032ba1
+832 verbose unbuild node_modules\.staging\coffee-script-679e255e
+833 verbose unbuild node_modules\.staging\event-stream-2422142c
+834 verbose unbuild node_modules\.staging\camera-9ba9ed57
+835 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\from-781e3add is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+836 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\from-781e3add
+837 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\buffers-b4db6735 is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+838 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\buffers-b4db6735
+839 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\map-stream-3cf7db53 is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+840 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\map-stream-3cf7db53
+841 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\duplexer-4fbfffaf is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+842 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\duplexer-4fbfffaf
+843 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\through-d1fe740a is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+844 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\through-d1fe740a
+845 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\mkdirp-bc2c5c66 is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+846 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\mkdirp-bc2c5c66
+847 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\stream-combiner-5f58aece is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+848 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\stream-combiner-5f58aece
+849 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\split-daf0dc19 is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+850 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\split-daf0dc19
+851 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\pause-stream-4b032ba1 is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+852 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\pause-stream-4b032ba1
+853 verbose unbuild node_modules\.staging\opencv-a41d8407
+854 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\from\0.1.7\package.tgz
+855 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\from-781e3add
+856 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\from-781e3add is being purged
+857 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\from-781e3add
+858 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\buffers\0.1.1\package.tgz
+859 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\buffers-b4db6735
+860 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\buffers-b4db6735 is being purged
+861 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\buffers-b4db6735
+862 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\map-stream\0.1.0\package.tgz
+863 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\map-stream-3cf7db53
+864 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\map-stream-3cf7db53 is being purged
+865 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\map-stream-3cf7db53
+866 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\duplexer\0.1.1\package.tgz
+867 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\duplexer-4fbfffaf
+868 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\duplexer-4fbfffaf is being purged
+869 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\duplexer-4fbfffaf
+870 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\through\2.3.8\package.tgz
+871 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\through-d1fe740a
+872 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\through-d1fe740a is being purged
+873 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\through-d1fe740a
+874 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+875 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\mkdirp-bc2c5c66
+876 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\mkdirp-bc2c5c66 is being purged
+877 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\mkdirp-bc2c5c66
+878 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\stream-combiner\0.0.4\package.tgz
+879 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\stream-combiner-5f58aece
+880 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\stream-combiner-5f58aece is being purged
+881 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\stream-combiner-5f58aece
+882 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\split\0.2.10\package.tgz
+883 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\split-daf0dc19
+884 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\split-daf0dc19 is being purged
+885 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\split-daf0dc19
+886 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\pause-stream\0.0.11\package.tgz
+887 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\pause-stream-4b032ba1
+888 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\pause-stream-4b032ba1 is being purged
+889 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\pause-stream-4b032ba1
+890 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\coffee-script-679e255e is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+891 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\coffee-script-679e255e
+892 silly gunzTarPerm modes [ '777', '666' ]
+893 silly gunzTarPerm modes [ '777', '666' ]
+894 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\event-stream-2422142c is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+895 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\event-stream-2422142c
+896 silly gunzTarPerm modes [ '777', '666' ]
+897 silly gunzTarPerm modes [ '777', '666' ]
+898 silly gunzTarPerm modes [ '777', '666' ]
+899 silly gunzTarPerm modes [ '777', '666' ]
+900 silly gunzTarPerm modes [ '777', '666' ]
+901 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\camera-9ba9ed57 is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+902 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\camera-9ba9ed57
+903 silly gunzTarPerm modes [ '777', '666' ]
+904 silly gunzTarPerm modes [ '777', '666' ]
+905 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\coffee-script\1.7.1\package.tgz
+906 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\coffee-script-679e255e
+907 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\coffee-script-679e255e is being purged
+908 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\coffee-script-679e255e
+909 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\event-stream\3.1.7\package.tgz
+910 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\event-stream-2422142c
+911 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\event-stream-2422142c is being purged
+912 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\event-stream-2422142c
+913 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\camera\0.0.5\package.tgz
+914 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\camera-9ba9ed57
+915 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\camera-9ba9ed57 is being purged
+916 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\camera-9ba9ed57
+917 silly gunzTarPerm modes [ '777', '666' ]
+918 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407 is being purged from base C:\Users\KIK\Desktop\year3\mobile-app\hello
+919 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407
+920 silly gunzTarPerm modes [ '777', '666' ]
+921 silly gunzTarPerm modes [ '777', '666' ]
+922 verbose tar unpack C:\Users\KIK\AppData\Roaming\npm-cache\opencv\0.5.0\package.tgz
+923 verbose tar unpacking to C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407
+924 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407 is being purged
+925 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407
+926 silly gunzTarPerm modes [ '777', '666' ]
+927 silly gunzTarPerm extractEntry package.json
+928 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+929 silly gunzTarPerm extractEntry index.js
+930 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+931 silly gunzTarPerm extractEntry package.json
+932 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+933 silly gunzTarPerm extractEntry package.json
+934 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+935 silly gunzTarPerm extractEntry package.json
+936 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+937 silly gunzTarPerm extractEntry package.json
+938 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+939 silly gunzTarPerm extractEntry package.json
+940 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+941 silly gunzTarPerm extractEntry package.json
+942 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+943 silly gunzTarPerm extractEntry package.json
+944 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+945 silly gunzTarPerm extractEntry package.json
+946 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+947 silly gunzTarPerm extractEntry package.json
+948 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+949 silly gunzTarPerm extractEntry package.json
+950 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+951 silly gunzTarPerm extractEntry package.json
+952 silly gunzTarPerm modified mode [ 'package.json', 493, 511 ]
+953 silly gunzTarPerm extractEntry package.json
+954 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+955 silly gunzTarPerm extractEntry README.markdown
+956 silly gunzTarPerm modified mode [ 'README.markdown', 420, 438 ]
+957 silly gunzTarPerm extractEntry .npmignore
+958 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+959 silly gunzTarPerm extractEntry README.md
+960 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+961 silly gunzTarPerm extractEntry index.js
+962 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+963 silly gunzTarPerm extractEntry .travis.yml
+964 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+965 silly gunzTarPerm extractEntry .npmignore
+966 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+967 silly gunzTarPerm extractEntry LICENSE
+968 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+969 silly gunzTarPerm extractEntry .npmignore
+970 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+971 silly gunzTarPerm extractEntry README.md
+972 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+973 silly gunzTarPerm extractEntry .npmignore
+974 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+975 silly gunzTarPerm extractEntry index.js
+976 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+977 silly gunzTarPerm extractEntry .npmignore
+978 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+979 silly gunzTarPerm extractEntry LICENCE
+980 silly gunzTarPerm modified mode [ 'LICENCE', 420, 438 ]
+981 silly gunzTarPerm extractEntry .npmignore
+982 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+983 silly gunzTarPerm extractEntry LICENCE
+984 silly gunzTarPerm modified mode [ 'LICENCE', 420, 438 ]
+985 silly gunzTarPerm extractEntry .npmignore
+986 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+987 silly gunzTarPerm extractEntry LICENSE
+988 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+989 silly gunzTarPerm extractEntry .npmignore
+990 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+991 silly gunzTarPerm extractEntry README
+992 silly gunzTarPerm modified mode [ 'README', 420, 438 ]
+993 silly gunzTarPerm extractEntry .npmignore
+994 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+995 silly gunzTarPerm extractEntry LICENCE
+996 silly gunzTarPerm modified mode [ 'LICENCE', 420, 438 ]
+997 silly gunzTarPerm extractEntry .npmignore
+998 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+999 silly gunzTarPerm extractEntry README.md
+1000 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1001 silly gunzTarPerm extractEntry .npmignore
+1002 silly gunzTarPerm modified mode [ '.npmignore', 493, 511 ]
+1003 silly gunzTarPerm extractEntry README.md
+1004 silly gunzTarPerm modified mode [ 'README.md', 493, 511 ]
+1005 silly gunzTarPerm extractEntry LICENCE
+1006 silly gunzTarPerm modified mode [ 'LICENCE', 420, 438 ]
+1007 silly gunzTarPerm extractEntry index.js
+1008 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1009 silly gunzTarPerm extractEntry examples/slice.js
+1010 silly gunzTarPerm modified mode [ 'examples/slice.js', 420, 438 ]
+1011 silly gunzTarPerm extractEntry examples/splice.js
+1012 silly gunzTarPerm modified mode [ 'examples/splice.js', 420, 438 ]
+1013 silly gunzTarPerm extractEntry LICENSE.APACHE2
+1014 silly gunzTarPerm modified mode [ 'LICENSE.APACHE2', 420, 438 ]
+1015 silly gunzTarPerm extractEntry LICENSE.MIT
+1016 silly gunzTarPerm modified mode [ 'LICENSE.MIT', 420, 438 ]
+1017 silly gunzTarPerm extractEntry index.js
+1018 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1019 silly gunzTarPerm extractEntry examples/pow.js
+1020 silly gunzTarPerm modified mode [ 'examples/pow.js', 420, 438 ]
+1021 silly gunzTarPerm extractEntry LICENSE
+1022 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1023 silly gunzTarPerm extractEntry index.js
+1024 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1025 silly gunzTarPerm extractEntry .travis.yml
+1026 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1027 silly gunzTarPerm extractEntry LICENSE.APACHE2
+1028 silly gunzTarPerm modified mode [ 'LICENSE.APACHE2', 420, 438 ]
+1029 silly gunzTarPerm extractEntry index.js
+1030 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1031 silly gunzTarPerm extractEntry .travis.yml
+1032 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1033 silly gunzTarPerm extractEntry index.js
+1034 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1035 silly gunzTarPerm extractEntry readme.markdown
+1036 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1037 silly gunzTarPerm extractEntry test/index.js
+1038 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+1039 silly gunzTarPerm extractEntry test/pause-end.js
+1040 silly gunzTarPerm modified mode [ 'test/pause-end.js', 420, 438 ]
+1041 silly gunzTarPerm extractEntry index.js
+1042 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1043 silly gunzTarPerm extractEntry .travis.yml
+1044 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1045 silly gunzTarPerm extractEntry LICENSE
+1046 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1047 silly gunzTarPerm extractEntry register.js
+1048 silly gunzTarPerm modified mode [ 'register.js', 420, 438 ]
+1049 silly gunzTarPerm extractEntry index.js
+1050 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1051 silly gunzTarPerm extractEntry .travis.yml
+1052 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1053 silly gunzTarPerm extractEntry LICENSE
+1054 silly gunzTarPerm modified mode [ 'LICENSE', 493, 511 ]
+1055 silly gunzTarPerm extractEntry index.js
+1056 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1057 silly gunzTarPerm extractEntry binding.gyp
+1058 silly gunzTarPerm modified mode [ 'binding.gyp', 493, 511 ]
+1059 silly gunzTarPerm extractEntry .travis.yml
+1060 silly gunzTarPerm modified mode [ '.travis.yml', 493, 511 ]
+1061 silly gunzTarPerm extractEntry test/index.js
+1062 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+1063 silly gunzTarPerm extractEntry .travis.yml
+1064 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1065 silly gunzTarPerm extractEntry test/buffers.js
+1066 silly gunzTarPerm modified mode [ 'test/buffers.js', 420, 438 ]
+1067 silly gunzTarPerm extractEntry readme.markdown
+1068 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1069 silly gunzTarPerm extractEntry test/perm.js
+1070 silly gunzTarPerm modified mode [ 'test/perm.js', 420, 438 ]
+1071 silly gunzTarPerm extractEntry examples/pretty.js
+1072 silly gunzTarPerm modified mode [ 'examples/pretty.js', 420, 438 ]
+1073 silly gunzTarPerm extractEntry readme.markdown
+1074 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1075 silly gunzTarPerm extractEntry .travis.yml
+1076 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1077 silly gunzTarPerm extractEntry test/index.js
+1078 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+1079 silly gunzTarPerm extractEntry LICENSE.MIT
+1080 silly gunzTarPerm modified mode [ 'LICENSE.MIT', 420, 438 ]
+1081 silly gunzTarPerm extractEntry readme.markdown
+1082 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1083 silly gunzTarPerm extractEntry examples/pretty.js
+1084 silly gunzTarPerm modified mode [ 'examples/pretty.js', 420, 438 ]
+1085 silly gunzTarPerm extractEntry readme.markdown
+1086 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1087 silly gunzTarPerm extractEntry CNAME
+1088 silly gunzTarPerm modified mode [ 'CNAME', 420, 438 ]
+1089 silly gunzTarPerm extractEntry CONTRIBUTING.md
+1090 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+1091 silly gunzTarPerm extractEntry .travis.yml
+1092 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1093 silly gunzTarPerm extractEntry lib/main.coffee
+1094 silly gunzTarPerm modified mode [ 'lib/main.coffee', 420, 438 ]
+1095 silly gunzTarPerm extractEntry readme.markdown
+1096 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1097 silly gunzTarPerm extractEntry test/async.js
+1098 silly gunzTarPerm modified mode [ 'test/async.js', 420, 438 ]
+1099 silly gunzTarPerm extractEntry test/perm_sync.js
+1100 silly gunzTarPerm modified mode [ 'test/perm_sync.js', 420, 438 ]
+1101 silly gunzTarPerm extractEntry test/race.js
+1102 silly gunzTarPerm modified mode [ 'test/race.js', 420, 438 ]
+1103 silly gunzTarPerm extractEntry test/simple-map.asynct.js
+1104 silly gunzTarPerm modified mode [ 'test/simple-map.asynct.js', 420, 438 ]
+1105 silly gunzTarPerm extractEntry test/index.js
+1106 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+1107 silly gunzTarPerm extractEntry test/partitioned_unicode.js
+1108 silly gunzTarPerm modified mode [ 'test/partitioned_unicode.js', 420, 438 ]
+1109 silly gunzTarPerm extractEntry test/split.asynct.js
+1110 silly gunzTarPerm modified mode [ 'test/split.asynct.js', 420, 438 ]
+1111 silly gunzTarPerm extractEntry bin/cake
+1112 silly gunzTarPerm modified mode [ 'bin/cake', 493, 511 ]
+1113 silly gunzTarPerm extractEntry bin/coffee
+1114 silly gunzTarPerm modified mode [ 'bin/coffee', 493, 511 ]
+1115 silly gunzTarPerm extractEntry examples/pretty.js
+1116 silly gunzTarPerm modified mode [ 'examples/pretty.js', 420, 438 ]
+1117 silly gunzTarPerm extractEntry readme.markdown
+1118 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1119 silly gunzTarPerm extractEntry test/auto-destroy.js
+1120 silly gunzTarPerm modified mode [ 'test/auto-destroy.js', 420, 438 ]
+1121 silly gunzTarPerm extractEntry test/buffering.js
+1122 silly gunzTarPerm modified mode [ 'test/buffering.js', 420, 438 ]
+1123 silly gunzTarPerm extractEntry test/main.coffee
+1124 silly gunzTarPerm modified mode [ 'test/main.coffee', 420, 438 ]
+1125 silly gunzTarPerm extractEntry test/rel.js
+1126 silly gunzTarPerm modified mode [ 'test/rel.js', 420, 438 ]
+1127 silly gunzTarPerm extractEntry test/try_catch.asynct.js
+1128 silly gunzTarPerm modified mode [ 'test/try_catch.asynct.js', 420, 438 ]
+1129 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+1130 silly gunzTarPerm modified mode [ 'lib/coffee-script/browser.js', 420, 438 ]
+1131 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+1132 silly gunzTarPerm modified mode [ 'lib/coffee-script/grammar.js', 420, 438 ]
+1133 silly gunzTarPerm extractEntry Dockerfile
+1134 silly gunzTarPerm modified mode [ 'Dockerfile', 420, 438 ]
+1135 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+1136 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 420, 438 ]
+1137 silly gunzTarPerm extractEntry test/connect.asynct.js
+1138 silly gunzTarPerm modified mode [ 'test/connect.asynct.js', 420, 438 ]
+1139 silly gunzTarPerm extractEntry test/end.js
+1140 silly gunzTarPerm modified mode [ 'test/end.js', 420, 438 ]
+1141 silly gunzTarPerm extractEntry test/return.js
+1142 silly gunzTarPerm modified mode [ 'test/return.js', 420, 438 ]
+1143 silly gunzTarPerm extractEntry test/clobber.js
+1144 silly gunzTarPerm modified mode [ 'test/clobber.js', 420, 438 ]
+1145 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+1146 silly gunzTarPerm modified mode [ 'lib/coffee-script/helpers.js', 420, 438 ]
+1147 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+1148 silly gunzTarPerm modified mode [ 'lib/coffee-script/index.js', 420, 438 ]
+1149 silly gunzTarPerm extractEntry test/index.js
+1150 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+1151 silly gunzTarPerm extractEntry test/merge.asynct.js
+1152 silly gunzTarPerm modified mode [ 'test/merge.asynct.js', 420, 438 ]
+1153 silly gunzTarPerm extractEntry test/pause.asynct.js
+1154 silly gunzTarPerm modified mode [ 'test/pause.asynct.js', 420, 438 ]
+1155 silly gunzTarPerm extractEntry test/root.js
+1156 silly gunzTarPerm modified mode [ 'test/root.js', 420, 438 ]
+1157 silly gunzTarPerm extractEntry test/umask.js
+1158 silly gunzTarPerm modified mode [ 'test/umask.js', 420, 438 ]
+1159 silly gunzTarPerm extractEntry .README.md.un~
+1160 silly gunzTarPerm modified mode [ '.README.md.un~', 493, 511 ]
+1161 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+1162 silly gunzTarPerm modified mode [ 'lib/coffee-script/lexer.js', 420, 438 ]
+1163 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+1164 silly gunzTarPerm modified mode [ 'lib/coffee-script/command.js', 420, 438 ]
+1165 silly gunzTarPerm extractEntry .binding.gyp.un~
+1166 silly gunzTarPerm modified mode [ '.binding.gyp.un~', 493, 511 ]
+1167 silly gunzTarPerm extractEntry test/pipeline.asynct.js
+1168 silly gunzTarPerm modified mode [ 'test/pipeline.asynct.js', 420, 438 ]
+1169 silly gunzTarPerm extractEntry test/readArray.asynct.js
+1170 silly gunzTarPerm modified mode [ 'test/readArray.asynct.js', 420, 438 ]
+1171 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+1172 silly gunzTarPerm modified mode [ 'lib/coffee-script/optparse.js', 420, 438 ]
+1173 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+1174 silly gunzTarPerm modified mode [ 'lib/coffee-script/parser.js', 493, 511 ]
+1175 silly gunzTarPerm extractEntry data/haarcascade_mcs_eyepair_big.xml
+1176 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_eyepair_big.xml', 493, 511 ]
+1177 silly gunzTarPerm extractEntry data/haarcascade_eye.xml
+1178 silly gunzTarPerm modified mode [ 'data/haarcascade_eye.xml', 493, 511 ]
+1179 silly gunzTarPerm extractEntry test/sync.js
+1180 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+1181 silly gunzTarPerm extractEntry test/chmod.js
+1182 silly gunzTarPerm modified mode [ 'test/chmod.js', 420, 438 ]
+1183 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\buffers-b4db6735\node_modules is being purged
+1184 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\buffers-b4db6735\node_modules
+1185 silly gunzTarPerm extractEntry test/stringify.js
+1186 silly gunzTarPerm modified mode [ 'test/stringify.js', 420, 438 ]
+1187 silly gunzTarPerm extractEntry test/replace.asynct.js
+1188 silly gunzTarPerm modified mode [ 'test/replace.asynct.js', 420, 438 ]
+1189 silly gunzTarPerm extractEntry test/umask_sync.js
+1190 silly gunzTarPerm modified mode [ 'test/umask_sync.js', 420, 438 ]
+1191 silly gunzTarPerm extractEntry test/return_sync.js
+1192 silly gunzTarPerm modified mode [ 'test/return_sync.js', 420, 438 ]
+1193 silly gunzTarPerm extractEntry lib/coffee-script/register.js
+1194 silly gunzTarPerm modified mode [ 'lib/coffee-script/register.js', 420, 438 ]
+1195 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+1196 silly gunzTarPerm modified mode [ 'lib/coffee-script/repl.js', 420, 438 ]
+1197 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt.xml
+1198 silly gunzTarPerm modified mode [ 'data/haarcascade_frontalface_alt.xml', 493, 511 ]
+1199 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\duplexer-4fbfffaf\node_modules is being purged
+1200 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\duplexer-4fbfffaf\node_modules
+1201 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\pause-stream-4b032ba1\node_modules is being purged
+1202 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\pause-stream-4b032ba1\node_modules
+1203 silly gunzTarPerm extractEntry test/simple-map.asynct.js
+1204 silly gunzTarPerm modified mode [ 'test/simple-map.asynct.js', 420, 438 ]
+1205 silly gunzTarPerm extractEntry test/spec.asynct.js
+1206 silly gunzTarPerm modified mode [ 'test/spec.asynct.js', 420, 438 ]
+1207 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\stream-combiner-5f58aece\node_modules is being purged
+1208 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\stream-combiner-5f58aece\node_modules
+1209 silly gunzTarPerm extractEntry test/mkdirp.js
+1210 silly gunzTarPerm modified mode [ 'test/mkdirp.js', 420, 438 ]
+1211 silly gunzTarPerm extractEntry .travis.yml
+1212 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1213 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+1214 silly gunzTarPerm modified mode [ 'lib/coffee-script/rewriter.js', 420, 438 ]
+1215 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+1216 silly gunzTarPerm modified mode [ 'lib/coffee-script/coffee-script.js', 420, 438 ]
+1217 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\from-781e3add\node_modules is being purged
+1218 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\from-781e3add\node_modules
+1219 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\map-stream-3cf7db53\node_modules is being purged
+1220 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\map-stream-3cf7db53\node_modules
+1221 silly gunzTarPerm extractEntry test/split.asynct.js
+1222 silly gunzTarPerm modified mode [ 'test/split.asynct.js', 420, 438 ]
+1223 silly gunzTarPerm extractEntry test/writeArray.asynct.js
+1224 silly gunzTarPerm modified mode [ 'test/writeArray.asynct.js', 420, 438 ]
+1225 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\camera-9ba9ed57\node_modules is being purged
+1226 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\camera-9ba9ed57\node_modules
+1227 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+1228 silly gunzTarPerm modified mode [ 'lib/coffee-script/scope.js', 420, 438 ]
+1229 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+1230 silly gunzTarPerm modified mode [ 'lib/coffee-script/cake.js', 420, 438 ]
+1231 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+1232 silly gunzTarPerm modified mode [ 'lib/coffee-script/sourcemap.js', 420, 438 ]
+1233 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+1234 silly gunzTarPerm modified mode [ 'lib/coffee-script/nodes.js', 420, 438 ]
+1235 silly gunzTarPerm extractEntry test/readable.asynct.js
+1236 silly gunzTarPerm modified mode [ 'test/readable.asynct.js', 420, 438 ]
+1237 silly gunzTarPerm extractEntry test/helper/index.js
+1238 silly gunzTarPerm modified mode [ 'test/helper/index.js', 420, 438 ]
+1239 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\split-daf0dc19\node_modules is being purged
+1240 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\split-daf0dc19\node_modules
+1241 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\through-d1fe740a\node_modules is being purged
+1242 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\through-d1fe740a\node_modules
+1243 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt2.xml
+1244 silly gunzTarPerm modified mode [ 'data/haarcascade_frontalface_alt2.xml', 493, 511 ]
+1245 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt_tree.xml
+1246 silly gunzTarPerm modified mode [ 'data/haarcascade_frontalface_alt_tree.xml', 493, 511 ]
+1247 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\mkdirp-bc2c5c66\node_modules is being purged
+1248 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\mkdirp-bc2c5c66\node_modules
+1249 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\event-stream-2422142c\node_modules is being purged
+1250 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\event-stream-2422142c\node_modules
+1251 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\coffee-script-679e255e\node_modules is being purged
+1252 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\coffee-script-679e255e\node_modules
+1253 silly gunzTarPerm extractEntry data/haarcascade_frontalface_default.xml
+1254 silly gunzTarPerm modified mode [ 'data/haarcascade_frontalface_default.xml', 493, 511 ]
+1255 silly gunzTarPerm extractEntry data/haarcascade_fullbody.xml
+1256 silly gunzTarPerm modified mode [ 'data/haarcascade_fullbody.xml', 493, 511 ]
+1257 silly gunzTarPerm extractEntry data/haarcascade_lefteye_2splits.xml
+1258 silly gunzTarPerm modified mode [ 'data/haarcascade_lefteye_2splits.xml', 493, 511 ]
+1259 silly gunzTarPerm extractEntry data/haarcascade_lowerbody.xml
+1260 silly gunzTarPerm modified mode [ 'data/haarcascade_lowerbody.xml', 493, 511 ]
+1261 silly gunzTarPerm extractEntry data/haarcascade_eye_tree_eyeglasses.xml
+1262 silly gunzTarPerm modified mode [ 'data/haarcascade_eye_tree_eyeglasses.xml', 493, 511 ]
+1263 silly gunzTarPerm extractEntry data/haarcascade_mcs_eyepair_small.xml
+1264 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_eyepair_small.xml', 493, 511 ]
+1265 silly gunzTarPerm extractEntry data/haarcascade_mcs_lefteye.xml
+1266 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_lefteye.xml', 493, 511 ]
+1267 silly gunzTarPerm extractEntry data/haarcascade_mcs_mouth.xml
+1268 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_mouth.xml', 493, 511 ]
+1269 silly gunzTarPerm extractEntry data/haarcascade_mcs_nose.xml
+1270 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_nose.xml', 493, 511 ]
+1271 silly gunzTarPerm extractEntry data/haarcascade_mcs_righteye.xml
+1272 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_righteye.xml', 493, 511 ]
+1273 silly gunzTarPerm extractEntry data/haarcascade_mcs_upperbody.xml
+1274 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_upperbody.xml', 493, 511 ]
+1275 silly gunzTarPerm extractEntry data/haarcascade_profileface.xml
+1276 silly gunzTarPerm modified mode [ 'data/haarcascade_profileface.xml', 493, 511 ]
+1277 silly gunzTarPerm extractEntry data/haarcascade_righteye_2splits.xml
+1278 silly gunzTarPerm modified mode [ 'data/haarcascade_righteye_2splits.xml', 493, 511 ]
+1279 silly gunzTarPerm extractEntry data/haarcascade_upperbody.xml
+1280 silly gunzTarPerm modified mode [ 'data/haarcascade_upperbody.xml', 493, 511 ]
+1281 silly gunzTarPerm extractEntry examples/Face.js
+1282 silly gunzTarPerm modified mode [ 'examples/Face.js', 493, 511 ]
+1283 silly gunzTarPerm extractEntry examples/salt.js
+1284 silly gunzTarPerm modified mode [ 'examples/salt.js', 493, 511 ]
+1285 silly gunzTarPerm extractEntry examples/quad-crosses.js
+1286 silly gunzTarPerm modified mode [ 'examples/quad-crosses.js', 493, 511 ]
+1287 silly gunzTarPerm extractEntry examples/motion-track.js
+1288 silly gunzTarPerm modified mode [ 'examples/motion-track.js', 420, 438 ]
+1289 silly gunzTarPerm extractEntry examples/camera.js
+1290 silly gunzTarPerm modified mode [ 'examples/camera.js', 493, 511 ]
+1291 silly gunzTarPerm extractEntry examples/contours.js
+1292 silly gunzTarPerm modified mode [ 'examples/contours.js', 493, 511 ]
+1293 silly gunzTarPerm extractEntry examples/convert_image.js
+1294 silly gunzTarPerm modified mode [ 'examples/convert_image.js', 493, 511 ]
+1295 silly gunzTarPerm extractEntry examples/detect-shapes.js
+1296 silly gunzTarPerm modified mode [ 'examples/detect-shapes.js', 493, 511 ]
+1297 silly gunzTarPerm extractEntry examples/face-proxy.js
+1298 silly gunzTarPerm modified mode [ 'examples/face-proxy.js', 493, 511 ]
+1299 silly gunzTarPerm extractEntry examples/addweighted.js
+1300 silly gunzTarPerm modified mode [ 'examples/addweighted.js', 493, 511 ]
+1301 silly gunzTarPerm extractEntry examples/color_filter.js
+1302 silly gunzTarPerm modified mode [ 'examples/color_filter.js', 420, 438 ]
+1303 silly gunzTarPerm extractEntry examples/take-face-pics.js
+1304 silly gunzTarPerm modified mode [ 'examples/take-face-pics.js', 420, 438 ]
+1305 silly gunzTarPerm extractEntry examples/face_detection.js
+1306 silly gunzTarPerm modified mode [ 'examples/face_detection.js', 493, 511 ]
+1307 silly gunzTarPerm extractEntry examples/make-example-files.sh
+1308 silly gunzTarPerm modified mode [ 'examples/make-example-files.sh', 493, 511 ]
+1309 silly gunzTarPerm extractEntry examples/coin2.jpg
+1310 silly gunzTarPerm modified mode [ 'examples/coin2.jpg', 420, 438 ]
+1311 silly gunzTarPerm extractEntry examples/motion.mov
+1312 silly gunzTarPerm modified mode [ 'examples/motion.mov', 420, 438 ]
+1313 silly gunzTarPerm extractEntry examples/over_text.png
+1314 silly gunzTarPerm modified mode [ 'examples/over_text.png', 493, 511 ]
+1315 silly gunzTarPerm extractEntry examples/mona.png
+1316 silly gunzTarPerm modified mode [ 'examples/mona.png', 493, 511 ]
+1317 silly gunzTarPerm extractEntry examples/quads.jpg
+1318 silly gunzTarPerm modified mode [ 'examples/quads.jpg', 420, 438 ]
+1319 silly gunzTarPerm extractEntry examples/coffeescript/camera.coffee
+1320 silly gunzTarPerm modified mode [ 'examples/coffeescript/camera.coffee', 420, 438 ]
+1321 silly gunzTarPerm extractEntry examples/coffeescript/blend-images.coffee
+1322 silly gunzTarPerm modified mode [ 'examples/coffeescript/blend-images.coffee', 420, 438 ]
+1323 silly gunzTarPerm extractEntry examples/coffeescript/camera-face-detection.coffee
+1324 silly gunzTarPerm modified mode [ 'examples/coffeescript/camera-face-detection.coffee',
+1324 silly gunzTarPerm   420,
+1324 silly gunzTarPerm   438 ]
+1325 silly gunzTarPerm extractEntry examples/coffeescript/camera-gausian-effect.coffee
+1326 silly gunzTarPerm modified mode [ 'examples/coffeescript/camera-gausian-effect.coffee',
+1326 silly gunzTarPerm   420,
+1326 silly gunzTarPerm   438 ]
+1327 silly gunzTarPerm extractEntry examples/coffeescript/camera-gaussian-effect.coffee
+1328 silly gunzTarPerm modified mode [ 'examples/coffeescript/camera-gaussian-effect.coffee',
+1328 silly gunzTarPerm   420,
+1328 silly gunzTarPerm   438 ]
+1329 silly gunzTarPerm extractEntry examples/coffeescript/camera-face-detect-max-frames.coffee
+1330 silly gunzTarPerm modified mode [ 'examples/coffeescript/camera-face-detect-max-frames.coffee',
+1330 silly gunzTarPerm   420,
+1330 silly gunzTarPerm   438 ]
+1331 silly gunzTarPerm extractEntry examples/coffeescript/haarcascades/haarcascade_frontalface_alt.xml
+1332 silly gunzTarPerm modified mode [ 'examples/coffeescript/haarcascades/haarcascade_frontalface_alt.xml',
+1332 silly gunzTarPerm   420,
+1332 silly gunzTarPerm   438 ]
+1333 silly gunzTarPerm extractEntry examples/coffeescript/image-basic-shapes.coffee
+1334 silly gunzTarPerm modified mode [ 'examples/coffeescript/image-basic-shapes.coffee', 420, 438 ]
+1335 silly gunzTarPerm extractEntry examples/coffeescript/image-load-display.coffee
+1336 silly gunzTarPerm modified mode [ 'examples/coffeescript/image-load-display.coffee', 420, 438 ]
+1337 silly gunzTarPerm extractEntry examples/coffeescript/image-load-modify-display.coffee
+1338 silly gunzTarPerm modified mode [ 'examples/coffeescript/image-load-modify-display.coffee',
+1338 silly gunzTarPerm   420,
+1338 silly gunzTarPerm   438 ]
+1339 silly gunzTarPerm extractEntry examples/coffeescript/images/linux-logo.png
+1340 silly gunzTarPerm modified mode [ 'examples/coffeescript/images/linux-logo.png', 420, 438 ]
+1341 silly gunzTarPerm extractEntry examples/coffeescript/images/mona.png
+1342 silly gunzTarPerm modified mode [ 'examples/coffeescript/images/mona.png', 493, 511 ]
+1343 silly gunzTarPerm extractEntry examples/coffeescript/images/windows-logo.png
+1344 silly gunzTarPerm modified mode [ 'examples/coffeescript/images/windows-logo.png', 420, 438 ]
+1345 silly gunzTarPerm extractEntry examples/shapes.jpg
+1346 silly gunzTarPerm modified mode [ 'examples/shapes.jpg', 420, 438 ]
+1347 silly gunzTarPerm extractEntry examples/stuff.png
+1348 silly gunzTarPerm modified mode [ 'examples/stuff.png', 493, 511 ]
+1349 silly gunzTarPerm extractEntry examples/coin1.jpg
+1350 silly gunzTarPerm modified mode [ 'examples/coin1.jpg', 420, 438 ]
+1351 silly gunzTarPerm extractEntry index.html
+1352 silly gunzTarPerm modified mode [ 'index.html', 493, 511 ]
+1353 silly gunzTarPerm extractEntry lib/bindings.js
+1354 silly gunzTarPerm modified mode [ 'lib/bindings.js', 493, 511 ]
+1355 silly gunzTarPerm extractEntry lib/opencv.js
+1356 silly gunzTarPerm modified mode [ 'lib/opencv.js', 493, 511 ]
+1357 silly gunzTarPerm extractEntry .package.json.un~
+1358 silly gunzTarPerm modified mode [ '.package.json.un~', 493, 511 ]
+1359 silly gunzTarPerm extractEntry smoke/smoketest.js
+1360 silly gunzTarPerm modified mode [ 'smoke/smoketest.js', 493, 511 ]
+1361 silly gunzTarPerm extractEntry smoke/smoke.sh
+1362 silly gunzTarPerm modified mode [ 'smoke/smoke.sh', 493, 511 ]
+1363 silly gunzTarPerm extractEntry src/HighGUI.cc
+1364 silly gunzTarPerm modified mode [ 'src/HighGUI.cc', 420, 438 ]
+1365 silly gunzTarPerm extractEntry src/.Matrix.cc.un~
+1366 silly gunzTarPerm modified mode [ 'src/.Matrix.cc.un~', 493, 511 ]
+1367 silly gunzTarPerm extractEntry src/CamShift.cc
+1368 silly gunzTarPerm modified mode [ 'src/CamShift.cc', 420, 438 ]
+1369 silly gunzTarPerm extractEntry src/CamShift.h
+1370 silly gunzTarPerm modified mode [ 'src/CamShift.h', 420, 438 ]
+1371 silly gunzTarPerm extractEntry src/CascadeClassifierWrap.cc
+1372 silly gunzTarPerm modified mode [ 'src/CascadeClassifierWrap.cc', 493, 511 ]
+1373 silly gunzTarPerm extractEntry src/CascadeClassifierWrap.h
+1374 silly gunzTarPerm modified mode [ 'src/CascadeClassifierWrap.h', 493, 511 ]
+1375 silly gunzTarPerm extractEntry src/Contours.cc
+1376 silly gunzTarPerm modified mode [ 'src/Contours.cc', 493, 511 ]
+1377 silly gunzTarPerm extractEntry src/Contours.h
+1378 silly gunzTarPerm modified mode [ 'src/Contours.h', 493, 511 ]
+1379 silly gunzTarPerm extractEntry src/FaceRecognizer.cc
+1380 silly gunzTarPerm modified mode [ 'src/FaceRecognizer.cc', 420, 438 ]
+1381 silly gunzTarPerm extractEntry src/FaceRecognizer.h
+1382 silly gunzTarPerm modified mode [ 'src/FaceRecognizer.h', 420, 438 ]
+1383 silly gunzTarPerm extractEntry src/.Matrix.h.un~
+1384 silly gunzTarPerm modified mode [ 'src/.Matrix.h.un~', 493, 511 ]
+1385 silly gunzTarPerm extractEntry src/HighGUI.h
+1386 silly gunzTarPerm modified mode [ 'src/HighGUI.h', 420, 438 ]
+1387 silly gunzTarPerm extractEntry src/Matrix.cc
+1388 silly gunzTarPerm modified mode [ 'src/Matrix.cc', 493, 511 ]
+1389 silly gunzTarPerm extractEntry src/Matrix.h
+1390 silly gunzTarPerm modified mode [ 'src/Matrix.h', 493, 511 ]
+1391 silly gunzTarPerm extractEntry src/OpenCV.cc
+1392 silly gunzTarPerm modified mode [ 'src/OpenCV.cc', 493, 511 ]
+1393 silly gunzTarPerm extractEntry src/OpenCV.h
+1394 silly gunzTarPerm modified mode [ 'src/OpenCV.h', 493, 511 ]
+1395 silly gunzTarPerm extractEntry src/Point.cc
+1396 silly gunzTarPerm modified mode [ 'src/Point.cc', 493, 511 ]
+1397 silly gunzTarPerm extractEntry src/Point.h
+1398 silly gunzTarPerm modified mode [ 'src/Point.h', 493, 511 ]
+1399 silly gunzTarPerm extractEntry src/VideoCaptureWrap.cc
+1400 silly gunzTarPerm modified mode [ 'src/VideoCaptureWrap.cc', 493, 511 ]
+1401 silly gunzTarPerm extractEntry src/VideoCaptureWrap.h
+1402 silly gunzTarPerm modified mode [ 'src/VideoCaptureWrap.h', 493, 511 ]
+1403 silly gunzTarPerm extractEntry src/init.cc
+1404 silly gunzTarPerm modified mode [ 'src/init.cc', 493, 511 ]
+1405 silly gunzTarPerm extractEntry test/unit.js
+1406 silly gunzTarPerm modified mode [ 'test/unit.js', 493, 511 ]
+1407 silly gentlyRm C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407\node_modules is being purged
+1408 verbose gentlyRm don't care about contents; nuking C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407\node_modules
+1409 silly doParallel preinstall 13
+1410 silly preinstall buffers@0.1.1 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\buffers-b4db6735
+1411 info lifecycle buffers@0.1.1~preinstall: buffers@0.1.1
+1412 silly preinstall duplexer@0.1.1 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\duplexer-4fbfffaf
+1413 info lifecycle duplexer@0.1.1~preinstall: duplexer@0.1.1
+1414 silly preinstall from@0.1.7 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\from-781e3add
+1415 info lifecycle from@0.1.7~preinstall: from@0.1.7
+1416 silly preinstall map-stream@0.1.0 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\map-stream-3cf7db53
+1417 info lifecycle map-stream@0.1.0~preinstall: map-stream@0.1.0
+1418 silly preinstall mkdirp@0.3.5 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\mkdirp-bc2c5c66
+1419 info lifecycle mkdirp@0.3.5~preinstall: mkdirp@0.3.5
+1420 silly preinstall stream-combiner@0.0.4 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\stream-combiner-5f58aece
+1421 info lifecycle stream-combiner@0.0.4~preinstall: stream-combiner@0.0.4
+1422 silly preinstall through@2.3.8 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\through-d1fe740a
+1423 info lifecycle through@2.3.8~preinstall: through@2.3.8
+1424 silly preinstall pause-stream@0.0.11 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\pause-stream-4b032ba1
+1425 info lifecycle pause-stream@0.0.11~preinstall: pause-stream@0.0.11
+1426 silly preinstall split@0.2.10 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\split-daf0dc19
+1427 info lifecycle split@0.2.10~preinstall: split@0.2.10
+1428 silly preinstall coffee-script@1.7.1 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\coffee-script-679e255e
+1429 info lifecycle coffee-script@1.7.1~preinstall: coffee-script@1.7.1
+1430 silly preinstall event-stream@3.1.7 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\event-stream-2422142c
+1431 info lifecycle event-stream@3.1.7~preinstall: event-stream@3.1.7
+1432 silly preinstall opencv@0.5.0 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407
+1433 info lifecycle opencv@0.5.0~preinstall: opencv@0.5.0
+1434 silly preinstall camera@0.0.5 C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\camera-9ba9ed57
+1435 info lifecycle camera@0.0.5~preinstall: camera@0.0.5
+1436 silly lifecycle buffers@0.1.1~preinstall: no script for preinstall, continuing
+1437 silly lifecycle duplexer@0.1.1~preinstall: no script for preinstall, continuing
+1438 silly lifecycle from@0.1.7~preinstall: no script for preinstall, continuing
+1439 silly lifecycle map-stream@0.1.0~preinstall: no script for preinstall, continuing
+1440 silly lifecycle mkdirp@0.3.5~preinstall: no script for preinstall, continuing
+1441 silly lifecycle stream-combiner@0.0.4~preinstall: no script for preinstall, continuing
+1442 silly lifecycle through@2.3.8~preinstall: no script for preinstall, continuing
+1443 silly lifecycle pause-stream@0.0.11~preinstall: no script for preinstall, continuing
+1444 silly lifecycle split@0.2.10~preinstall: no script for preinstall, continuing
+1445 silly lifecycle coffee-script@1.7.1~preinstall: no script for preinstall, continuing
+1446 silly lifecycle event-stream@3.1.7~preinstall: no script for preinstall, continuing
+1447 verbose lifecycle opencv@0.5.0~preinstall: unsafe-perm in lifecycle true
+1448 verbose lifecycle opencv@0.5.0~preinstall: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407\node_modules\.bin;C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\KIK\AppData\Local\Android\sdk;C:\Program Files (x86)\Skype\Phone\;C:\Users\KIK\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\KIK\AppData\Roaming\npm;
+1449 verbose lifecycle opencv@0.5.0~preinstall: CWD: C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging\opencv-a41d8407
+1450 silly lifecycle opencv@0.5.0~preinstall: Args: [ '/d /s /c', 'node-gyp clean rebuild' ]
+1451 silly lifecycle camera@0.0.5~preinstall: no script for preinstall, continuing
+1452 silly lifecycle opencv@0.5.0~preinstall: Returned: code: 1  signal: null
+1453 info lifecycle opencv@0.5.0~preinstall: Failed to exec preinstall script
+1454 verbose unlock done using C:\Users\KIK\AppData\Roaming\npm-cache\_locks\staging-b3391f37122f5afc.lock for C:\Users\KIK\Desktop\year3\mobile-app\hello\node_modules\.staging
+1455 silly rollbackFailedOptional Starting
+1456 silly rollbackFailedOptional Finishing
+1457 silly runTopLevelLifecycles Finishing
+1458 silly install printInstalled
+1459 warn com.example.hello@1.0.0 No repository field.
+1460 verbose If you need help, you may report this error at:
+1460 verbose     <https://github.com/npm/npm/issues>
+1461 verbose stack Error: opencv@0.5.0 preinstall: `node-gyp clean rebuild`
+1461 verbose stack Exit status 1
+1461 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+1461 verbose stack     at emitTwo (events.js:106:13)
+1461 verbose stack     at EventEmitter.emit (events.js:191:7)
+1461 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+1461 verbose stack     at emitTwo (events.js:106:13)
+1461 verbose stack     at ChildProcess.emit (events.js:191:7)
+1461 verbose stack     at maybeClose (internal/child_process.js:920:16)
+1461 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+1462 verbose pkgid opencv@0.5.0
+1463 verbose cwd C:\Users\KIK\Desktop\year3\mobile-app\hello
+1464 error Windows_NT 10.0.15063
+1465 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "camera" "--production" "--save"
+1466 error node v6.11.4
+1467 error npm  v3.10.10
+1468 error code ELIFECYCLE
+1469 error opencv@0.5.0 preinstall: `node-gyp clean rebuild`
+1469 error Exit status 1
+1470 error Failed at the opencv@0.5.0 preinstall script 'node-gyp clean rebuild'.
+1470 error Make sure you have the latest version of node.js and npm installed.
+1470 error If you do, this is most likely a problem with the opencv package,
+1470 error not with npm itself.
+1470 error Tell the author that this fails on your system:
+1470 error     node-gyp clean rebuild
+1470 error You can get information on how to open an issue for this project with:
+1470 error     npm bugs opencv
+1470 error Or if that isn't available, you can get their info via:
+1470 error     npm owner ls opencv
+1470 error There is likely additional logging output above.
+1471 verbose exit [ 1, true ]

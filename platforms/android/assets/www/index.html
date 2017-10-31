@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+        <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+        <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+        <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <title>Hello World</title>
+        <style>
+        .page__background{
+            background-color: #ff0062;
+        }
+        </style>
+        
+    </head>
+    
+    <script type="text/javascript" charset="utf-8">
+    
+    </script>
+  </head>
+  <body>
+
+  <ons-splitter>
+    <ons-splitter-side id="menu" side="left" width="220px" collapse>
+      <ons-page>
+        <div class="header-part">
+          <ons-button modifier="quiet">
+            <img style="height: 40px; width: 40px" class="profile-thumbnail" src="http://placekitten.com/g/70/70">
+          </ons-button>
+        </div>
+        <div class="header-part">Ugly Kitty</div>
+        <div class="header-part subheader" style="margin-top: 2px">@uKitty</div>
+        </div>
+        <ons-list>
+          <ons-list-item modifier="nodivider" onclick="fn.load('home.html')" tappable>
+            <div class="left">
+              <ons-icon icon="fa-home"></ons-icon>
+            </div>
+            <div class="center">
+              Home
+            </div>
+          </ons-list-item>
+         
+        
+
+        </ons-list>
+      </ons-page>
+    </ons-splitter-side>
+    <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
+  </ons-splitter>
+
+  <!-- home -->
+  <template id="home.html">
+    <ons-page>
+      <ons-toolbar>
+        <div id = "head"class="center">PSU Pin</div>
+        <div class="left">
+          <ons-toolbar-button onclick="fn.open()">
+            <ons-icon icon="fa-bars"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+      </ons-toolbar>
+      </ons-toolbar>
+
+      <ons-tabbar swipeable position="auto">
+
+        <ons-tab page="time.html" id="timetab" label="Timeline" icon="fa-home" active></ons-tab>
+        <ons-tab page="new.html" label="New Pin" icon="fa-thumb-tack" active-icon="fa-plus-square"></ons-tab>
+        <ons-tab page="map.html" label="Pin Map" icon="fa-globe" badge="" active-icon="fa-globe"></ons-tab>
+      </ons-tabbar>
+    </ons-page>
+  </template>
+
+  <!-- contact -->
+
+  <template id="Contact.html">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-back-button onclick="goBack()">Back</ons-back-button>
+        </div>
+
+        <div class="center bold">
+          Contact
+        </div>
+      </ons-toolbar><br>
+
+
+
+    </ons-page>
+  </template>
+
+
+
+  <!-- profile -->
+
+  <template id="profile.html">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-back-button onclick="goBack()">Back</ons-back-button>
+        </div>
+
+        <div class="center bold">
+          Profile
+        </div>
+
+
+      </ons-toolbar>
+    </ons-page>
+  </template>
+
+
+
+
+  <!-- timeline -->
+
+  <template id="time.html">
+    <ons-page id="time">
+
+      <div id="pins" align="center">
+        
+      </div>
+
+
+    </ons-page>
+  </template>
+
+
+
+
+
+
+
+  <!-- newpin -->
+  <template id="new.html">
+    <ons-page id="new">
+      <br><br>
+      <section>
+        <div align="center">
+        <img id="preview" style ="width:305px"class="preview-image" src="https://youpin.city/public/image/pin_photo_upload.png">
+        </div>
+      </section>
+      <br><br>
+      <section style="text-align: center;">
+        <button id="addPic" class="w3-btn w3-ripple w3-yellow" onclick="cam()" style="border-radius:8px;font-size:27px" ><ons-icon size="30px"spin icon="fa-camera-retro"></ons-icon> Take a Photo</button>
+      </section>
+      <br><br>
+      <section style="text-align: center;">
+        <button class="w3-btn w3-ripple w3-yellow" style="border-radius:8px;font-size:27px" id="locate" onclick="locate()"> Add Location</button>
+      </section>
+      <br><br>
+      <section style="padding: 0px;text-align: center;" class="preview-image">
+        <ons-input style="width:80%;" input-id="desc" id="description" modifier="underbar" placeholder="Share what's happen"></ons-input>
+      </section>
+      <br><br>
+      <section style="text-align: center;">
+        <button class="w3-btn w3-ripple w3-yellow" style="border-radius:8px;font-size:27px"  onclick="add()"> Post</button>
+      </section>
+      <br><br>
+
+    </ons-page>
+  </template>
+
+
+  <!-- map -->
+  <template id="map.html">
+    <ons-page id="map">
+      <div id="map">
+          
+           
+      </div>
+
+
+    </ons-page>
+  </template>
+
+
+
+
+  <!-- test -->
+  <template id="test.html">
+    <ons-page>
+      <ons-toolbar>
+        <div class="left">
+          <ons-back-button onclick="goBack()">Back</ons-back-button>
+        </div>
+
+        <div class="right">
+
+          <ons-toolbar-button onclick="fn.open()">
+            <ons-icon icon="md-menu"></ons-icon>
+          </ons-toolbar-button>
+        </div>
+        <div class="center">
+          Test
+        </div>
+      </ons-toolbar>
+
+    </ons-page>
+  </template>
+        
+
+
+
+<script id="template" type="x-tmpl-mustache">
+  <ons-card>
+      <img src="{{photo}}" style="width:100%;height:100%">
+      <div class="title">
+        Awesome framework
+      </div>
+      <div class="content">
+        <div>
+          <ons-button id={{id}} value="{{like}}"><ons-icon icon="ion-thumbsup">{{like}}</ons-icon></ons-button>
+          <ons-button class="post-button" modifier="quiet" id="{{id}}"><ons-icon id="button-post-like-2" icon="ion-ios-heart-outline"></ons-icon></ons-button>
+          <ons-button><ons-icon icon="ion-share"></ons-icon></ons-button>
+        </div>
+        <div>
+            <p align = "left">{{description}}</p>
+            <p align = "left">{{lat}}</p>
+            <p align = "left">{{long}}</p>
+            <p align = "left">{{id}}</p>
+        </div>
+        
+      </div>
+    </ons-card>
+      <br>
+      
+</script>
+    
+  </body>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="cordova_plugins.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+    
+</html>
