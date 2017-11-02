@@ -4,7 +4,7 @@
 
 
 h1 {
-    color: #FA8CCC;
+    color: rgb(248, 0, 145);
     font-size: 15px;
     text-align: center;
     font-weight: bold;
@@ -26,23 +26,7 @@ h1 {
   
   
   
-  button{
-    background-color: #8AEE8F;
-    border: none;
-    color: #3D3A3A;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 8px;
-    cursor: pointer;
-    height: auto;
-  }
-  .takephoto {
-    width: 250px;
-    height: 30px;
-  }
+
   
   .map{
     padding: 12px 180px;
@@ -81,7 +65,7 @@ h1 {
   
   
   #map {
-    height: 80%;
+    height: 100%;
   }
   /* Optional: Makes the sample page fill the window. */
   html, body {

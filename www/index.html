@@ -23,10 +23,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
         <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>Hello World</title>
+        <title>PSU Pin</title>
         <style>
         .page__background{
-    background: #8f447f;
+    background: #f7c94d;
    
 
         }
@@ -34,16 +34,16 @@
         
         .tabbar--material {
 
-          background-color: #000000;
+          background-color: #bd8c04;
 
         }
-        .tabbar{background-color: #570044;} 
+        .tabbar{background-color: #f38a00;} 
         .toolbar{
-          background-color: #570044;
+          background-color: #ffa600;
           
         }
-        .ons-tabbar__footer{background-color: #570044;} 
-        .ons-swiper-tabbar{background-color: #570044;}
+        .ons-tabbar__footer{background-color: #ffc400;} 
+        .ons-swiper-tabbar{background-color: #ffbb00;}
 
         
         </style>
@@ -201,16 +201,19 @@
 
 
   <!-- map -->
-  <template id="map.html">
-    <ons-page id="map">
-      <div id="map">
-          
-           
-      </div>
-
-
-    </ons-page>
-  </template>
+    <!-- map -->
+    <template id="map.html">
+      <ons-page id="map">
+        <div id="map">
+            
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxeT-T4ZX8Lc6gMH1h1kmVJ-WOKy2tuY&callback=initMap">
+              </script>
+        </div>
+  
+  
+      </ons-page>
+    </template>
 
 
 
@@ -241,7 +244,7 @@
 
 
 <script id="template" type="x-tmpl-mustache">
-  <ons-card >
+  <ons-card style="background-color: #f38a00";>
       <img src="{{photo}}" style="width:100%;height:100%">
       
       <div class="content">
