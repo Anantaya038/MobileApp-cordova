@@ -114,7 +114,7 @@ function locate(){
   var onSuccess = function(position) {
     ltd=position.coords.latitude;
     lgt=position.coords.longitude;
-    alert(ltd +"and"+lgt);
+    alert("Latitude : "+ltd+"\n"+"Longitude : "+lgt);
     
 };
 
@@ -145,9 +145,11 @@ function add(){
     long: lgt
     
   })
-alert(photoURL+"/n"+description+"/n"+ltd+"/n"+lgt);
-
+alert("Photo URL : "+photoURL+"\n"+"Description : "+description+"\n"+"Latitude : "+ltd+"\n"+"Longitude : "+lgt);
+alert('Upload Complete');
+location.reload('index.html');
 }
+
 $(function(){
 
 var db = firebase.firestore();   
@@ -177,7 +179,7 @@ navigator.geolocation.getCurrentPosition(onSuccess, onError);
 function onSuccess(position) {
   ltd=position.coords.latitude;
   lgt=position.coords.longitude;
-  alert(ltd +"and"+lgt);
+  alert("Latitude : "+ltd+"\n"+"Longitude : "+lgt);
   
 };
 

@@ -145,9 +145,11 @@ function add(){
     long: lgt
     
   })
-alert(photoURL+"/n"+description+"/n"+ltd+"/n"+lgt);
-
+alert("Photo URL : "+photoURL+"\n"+"Description : "+description+"\n"+"Latitude : "+ltd+"\n"+"Longitude : "+lgt);
+alert('Upload Complete');
+location.reload('index.html');
 }
+
 $(function(){
 
 var db = firebase.firestore();   

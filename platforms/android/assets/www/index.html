@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <html>
     <head>
         <!--
@@ -23,11 +24,25 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
         <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>Hello World</title>
+        <title>PSU Pin</title>
         <style>
         .page__background{
-            background-color: #ff0062;
+    background: #f7c94d;
+   
         }
+      
+        
+        .tabbar--material {
+          background-color: #bd8c04;
+        }
+        .tabbar{background-color: #f38a00;} 
+        .toolbar{
+          background-color: #ffa600;
+          
+        }
+        .ons-tabbar__footer{background-color: #ffc400;} 
+        .ons-swiper-tabbar{background-color: #ffbb00;}
+        
         </style>
         
     </head>
@@ -38,40 +53,54 @@
   </head>
   <body>
 
-  <ons-splitter>
-    <ons-splitter-side id="menu" side="left" width="220px" collapse>
-      <ons-page>
-        <div class="header-part">
-          <ons-button modifier="quiet">
-            <img style="height: 40px; width: 40px" class="profile-thumbnail" src="http://placekitten.com/g/70/70">
-          </ons-button>
-        </div>
-        <div class="header-part">Ugly Kitty</div>
-        <div class="header-part subheader" style="margin-top: 2px">@uKitty</div>
-        </div>
-        <ons-list>
-          <ons-list-item modifier="nodivider" onclick="fn.load('home.html')" tappable>
-            <div class="left">
-              <ons-icon icon="fa-home"></ons-icon>
-            </div>
-            <div class="center">
-              Home
-            </div>
-          </ons-list-item>
+    <ons-splitter>
+      <ons-splitter-side id="menu" side="left" width="220px" collapse>
+        <ons-page>
+          <div class="header-part">
+            <ons-button modifier="quiet">
+              <img style="height: 40px; width: 40px" class="profile-thumbnail" src="http://placekitten.com/g/70/70">
+            </ons-button>
+          </div>
+          <div class="header-part">Anantaya Wareesri</div>
          
-        
-
-        </ons-list>
-      </ons-page>
-    </ons-splitter-side>
-    <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
-  </ons-splitter>
+          </div>
+          <ons-list>
+            <ons-list-item modifier="nodivider" onclick="fn.load('home.html')" tappable>
+              <div class="left">
+                <ons-icon icon="fa-home"></ons-icon>
+              </div>
+              <div class="center">
+                Home
+              </div>
+            </ons-list-item>
+            <ons-list-item modifier="nodivider" onclick="fn.load('profile.html')" tappable>
+              <div class="left">
+                <ons-icon icon="ion-person"></ons-icon>
+              </div>
+              <div class="center">
+                Profile
+              </div>
+            </ons-list-item>
+            <ons-list-item modifier="nodivider" onclick="fn.load('Contact.html')" tappable>
+              <div class="left">
+                <ons-icon icon="fa-address-card-o"></ons-icon>
+              </div>
+              <div class="center">
+                Contact
+              </div>
+            </ons-list-item>
+  
+          </ons-list>
+        </ons-page>
+      </ons-splitter-side>
+      <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
+    </ons-splitter>
 
   <!-- home -->
   <template id="home.html">
     <ons-page>
       <ons-toolbar>
-        <div id = "head"class="center">PSU Pin</div>
+        <div id = "head"class="center" style="color:aliceblue">PSU Pin</div>
         <div class="left">
           <ons-toolbar-button onclick="fn.open()">
             <ons-icon icon="fa-bars"></ons-icon>
@@ -161,19 +190,20 @@
       </section>
       <br><br>
       <section style="text-align: center;">
-        <button id="addPic" class="w3-btn w3-ripple w3-yellow" onclick="cam()" style="border-radius:8px;font-size:27px" ><ons-icon size="30px"spin icon="fa-camera-retro"></ons-icon> Take a Photo</button>
+        <button id="addPic" class="button" onclick="cam()" ><ons-icon ></ons-icon> Take a Photo</button>
       </section>
       <br><br>
       <section style="text-align: center;">
-        <button class="w3-btn w3-ripple w3-yellow" style="border-radius:8px;font-size:27px" id="locate" onclick="locate()"> Add Location</button>
+        <button class="button"  id="locate" onclick="locate()"> Add Location</button>
       </section>
       <br><br>
+      <ons-card>
       <section style="padding: 0px;text-align: center;" class="preview-image">
         <ons-input style="width:80%;" input-id="desc" id="description" modifier="underbar" placeholder="Share what's happen"></ons-input>
-      </section>
+      </section></ons-card>
       <br><br>
       <section style="text-align: center;">
-        <button class="w3-btn w3-ripple w3-yellow" style="border-radius:8px;font-size:27px"  onclick="add()"> Post</button>
+        <button class="button"  onclick="add()"> Post</button>
       </section>
       <br><br>
 
@@ -182,16 +212,19 @@
 
 
   <!-- map -->
-  <template id="map.html">
-    <ons-page id="map">
-      <div id="map">
-          
-           
-      </div>
-
-
-    </ons-page>
-  </template>
+    <!-- map -->
+    <template id="map.html">
+      <ons-page id="map">
+        <div id="map">
+            
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxeT-T4ZX8Lc6gMH1h1kmVJ-WOKy2tuY&callback=initMap">
+              </script>
+        </div>
+  
+  
+      </ons-page>
+    </template>
 
 
 
@@ -222,23 +255,20 @@
 
 
 <script id="template" type="x-tmpl-mustache">
-  <ons-card>
+  <ons-card style="background-color: #f38a00";>
       <img src="{{photo}}" style="width:100%;height:100%">
-      <div class="title">
-        Awesome framework
-      </div>
+      
       <div class="content">
         <div>
-          <ons-button id={{id}} value="{{like}}"><ons-icon icon="ion-thumbsup">{{like}}</ons-icon></ons-button>
+    
           <ons-button class="post-button" modifier="quiet" id="{{id}}"><ons-icon id="button-post-like-2" icon="ion-ios-heart-outline"></ons-icon></ons-button>
-          <ons-button><ons-icon icon="ion-share"></ons-icon></ons-button>
+         
         </div>
-        <div>
+        <ons-card><div background-color:black;>
+          
             <p align = "left">{{description}}</p>
-            <p align = "left">{{lat}}</p>
-            <p align = "left">{{long}}</p>
-            <p align = "left">{{id}}</p>
-        </div>
+            
+        </div></ons-card>
         
       </div>
     </ons-card>
