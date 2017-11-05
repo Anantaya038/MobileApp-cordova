@@ -1,8 +1,8 @@
 # MobileApp-cordova
- ใช้ firebase ค่ะ 
-PSUpin project 
+ใช้ firebase ค่ะ 
+# PSUpin project 
 Plug-in 
- -camera
+ - camera
  - geolocation,compat  
 
  Function 
