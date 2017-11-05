@@ -24,6 +24,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
   <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <title>PSU Pin</title>
   <style>
     .page__background {
@@ -238,15 +240,17 @@
 
   <script id="template" type="x-tmpl-mustache">
   <ons-card style="background-color: #f38a00";>
+      <div style="text-align: right">
+      <ons-button class="close-button" modifier="quiet" onclick="deletePost(this.id)" id="{{id}}"><ons-icon id="button-post-like-2" icon="fa-times-circle"></ons-icon></ons-button>
+    </div>
       <ons-list-item class="post_title">
           <div class="left">
-            <img class="list-item__thumbnail" src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t1.0-1/c40.0.160.160/p160x160/21728188_1494890820627904_3744572037431652152_n.jpg?oh=26731dbab1a0bc7cdd38ffe7612d35aa&oe=5AAAD5FA" >
-          </div>
-          <div class="center">
-            <div ><b>Anantaya Wareesri</b></div>
-            <div style="font-size: 12px">1 HOUR AGO</div>
+              <img src="img/me.jpg" class="w3-border" alt="Anantaya038" style="padding:4px;width:32%;border-radius:50%;"><br>
+              <div class="center"><b>&nbsp;&nbsp; Anantaya Wareesri </b></div>          
           </div>
         </ons-list-item>
+  
+
       <img src="{{photo}}" style="width:100%;height:100%">
       
       <div class="content">

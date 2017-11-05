@@ -114,7 +114,7 @@ function locate(){
   var onSuccess = function(position) {
     ltd=position.coords.latitude;
     lgt=position.coords.longitude;
-    alert(ltd +"and"+lgt);
+    alert("Latitude : "+ltd+"\n"+"Longitude : "+lgt);
     
 };
 
@@ -179,7 +179,7 @@ navigator.geolocation.getCurrentPosition(onSuccess, onError);
 function onSuccess(position) {
   ltd=position.coords.latitude;
   lgt=position.coords.longitude;
-  alert(ltd +"and"+lgt);
+  alert("Latitude : "+ltd+"\n"+"Longitude : "+lgt);
   
 };
 
@@ -229,4 +229,21 @@ var like = function(num) {
                     map: map
                   });
                                   });
+              }
+
+//-------------------------------------delete post---------------------------------------------
+              function deletePost(id){
+                console.log(id);
+                var did = id;
+                var db = firebase.firestore();
+                
+                db.collection("pins").doc(did).delete().then(function() {
+                  console.log("Document successfully deleted!");
+                  alert('Delete post complete!');
+                  location.reload('index.html');
+
+                }).catch(function(error) {
+                  console.error("Error removing document: ", error);
+                });
+              
               }

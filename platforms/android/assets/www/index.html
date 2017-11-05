@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-
 <html>
-    <head>
-        <!--
+
+<head>
+  <!--
         Customize this policy to fit your own app's needs. For more guidance, see:
             https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
         Some notes:
@@ -12,108 +12,87 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
-        <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
-        <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
-        <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>PSU Pin</title>
-        <style>
-        .page__background{
-    background: #f7c94d;
-   
-        }
-      
-        
-        .tabbar--material {
-          background-color: #bd8c04;
-        }
-        .tabbar{background-color: #f38a00;} 
-        .toolbar{
-          background-color: #ffa600;
-          
-        }
-        .ons-tabbar__footer{background-color: #ffc400;} 
-        .ons-swiper-tabbar{background-color: #ffbb00;}
-        
-        </style>
-        
-    </head>
-    
-    <script type="text/javascript" charset="utf-8">
-    
-    </script>
-  </head>
-  <body>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+  <script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script>
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <title>PSU Pin</title>
+  <style>
+    .page__background {
+      background: #f7c94d;
 
-    <ons-splitter>
-      <ons-splitter-side id="menu" side="left" width="220px" collapse>
-        <ons-page>
-          <div class="header-part">
-            <ons-button modifier="quiet">
-              <img style="height: 40px; width: 40px" class="profile-thumbnail" src="http://placekitten.com/g/70/70">
-            </ons-button>
-          </div>
-          <div class="header-part">Anantaya Wareesri</div>
-         
-          </div>
-          <ons-list>
-            <ons-list-item modifier="nodivider" onclick="fn.load('home.html')" tappable>
-              <div class="left">
-                <ons-icon icon="fa-home"></ons-icon>
-              </div>
-              <div class="center">
-                Home
-              </div>
-            </ons-list-item>
-            <ons-list-item modifier="nodivider" onclick="fn.load('profile.html')" tappable>
-              <div class="left">
-                <ons-icon icon="ion-person"></ons-icon>
-              </div>
-              <div class="center">
-                Profile
-              </div>
-            </ons-list-item>
-            <ons-list-item modifier="nodivider" onclick="fn.load('Contact.html')" tappable>
-              <div class="left">
-                <ons-icon icon="fa-address-card-o"></ons-icon>
-              </div>
-              <div class="center">
-                Contact
-              </div>
-            </ons-list-item>
-  
-          </ons-list>
-        </ons-page>
-      </ons-splitter-side>
-      <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
-    </ons-splitter>
+    }
+
+
+    .tabbar--material {
+      background-color: #bd8c04;
+    }
+
+    .tabbar {
+      background-color: #f38a00;
+    }
+
+    .toolbar {
+      background-color: #ffa600;
+
+    }
+
+    .ons-tabbar__footer {
+      background-color: #ffc400;
+    }
+
+    .ons-swiper-tabbar {
+      background-color: #ffbb00;
+    }
+  </style>
+
+</head>
+
+<script type="text/javascript" charset="utf-8">
+
+</script>
+</head>
+
+<body>
+
+  <ons-splitter>
+    <ons-splitter-side id="menu" side="left" width="220px" collapse>
+      <ons-page>
+        <div class="header-part">
+          <ons-button modifier="quiet">
+            <img style="height: 40px; width: 40px" class="profile-thumbnail" src="http://placekitten.com/g/70/70">
+          </ons-button>
+        </div>
+        <div class="header-part">Anantaya Wareesri</div>
+      </ons-page>
+    </ons-splitter-side>
+    <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
+  </ons-splitter>
 
   <!-- home -->
   <template id="home.html">
     <ons-page>
       <ons-toolbar>
-        <div id = "head"class="center" style="color:aliceblue">PSU Pin</div>
-        <div class="left">
-          <ons-toolbar-button onclick="fn.open()">
-            <ons-icon icon="fa-bars"></ons-icon>
-          </ons-toolbar-button>
-        </div>
+        <div id="head" class="center" style="color:rgb(0, 0, 0)">PSU Pin</div>
+
       </ons-toolbar>
       </ons-toolbar>
 
       <ons-tabbar swipeable position="auto">
 
-        <ons-tab page="time.html" id="timetab" label="Timeline" icon="fa-home" active></ons-tab>
+        <ons-tab page="time.html" id="timetab" label="Timeline" icon="fa-home" active-icon="fa-home"></ons-tab>
         <ons-tab page="new.html" label="New Pin" icon="fa-thumb-tack" active-icon="fa-plus-square"></ons-tab>
-        <ons-tab page="map.html" label="Pin Map" icon="fa-globe" badge="" active-icon="fa-globe"></ons-tab>
+        <ons-tab page="map.html" label="Pin Map" icon="fa-globe" badge="" active-icon="fa-map-marker"></ons-tab>
       </ons-tabbar>
     </ons-page>
   </template>
@@ -130,7 +109,8 @@
         <div class="center bold">
           Contact
         </div>
-      </ons-toolbar><br>
+      </ons-toolbar>
+      <br>
 
 
 
@@ -166,7 +146,7 @@
     <ons-page id="time">
 
       <div id="pins" align="center">
-        
+
       </div>
 
 
@@ -182,49 +162,48 @@
   <!-- newpin -->
   <template id="new.html">
     <ons-page id="new">
-      <br><br>
+      <br>
       <section>
         <div align="center">
-        <img id="preview" style ="width:305px"class="preview-image" src="https://youpin.city/public/image/pin_photo_upload.png">
+          <img id="preview" class="preview-image" src="https://youpin.city/public/image/pin_photo_upload.png">
         </div>
       </section>
-      <br><br>
+      <br>
       <section style="text-align: center;">
-        <button id="addPic" class="button" onclick="cam()" ><ons-icon ></ons-icon> Take a Photo</button>
+        <button id="addPic" class="button" onclick="cam()">
+          <ons-icon></ons-icon>Take a Photo</button>
       </section>
-      <br><br>
+      <br>
       <section style="text-align: center;">
-        <button class="button"  id="locate" onclick="locate()"> Add Location</button>
+        <button class="button" id="locate" onclick="locate()">Add Location</button>
       </section>
-      <br><br>
+      <br>
       <ons-card>
-      <section style="padding: 0px;text-align: center;" class="preview-image">
-        <ons-input style="width:80%;" input-id="desc" id="description" modifier="underbar" placeholder="Share what's happen"></ons-input>
-      </section></ons-card>
-      <br><br>
+        <section style="padding: 0px;text-align: center;" class="preview-image">
+          <ons-input style="width:80%;" input-id="desc" id="description" modifier="underbar" placeholder="Share what's happen"></ons-input>
+        </section>
+      </ons-card>
+      <br>
       <section style="text-align: center;">
-        <button class="button"  onclick="add()"> Post</button>
+        <button class="button" onclick="add()"> Post</button>
       </section>
-      <br><br>
-
     </ons-page>
   </template>
 
 
   <!-- map -->
-    <!-- map -->
-    <template id="map.html">
-      <ons-page id="map">
-        <div id="map">
-            
-              <script async defer
-              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxeT-T4ZX8Lc6gMH1h1kmVJ-WOKy2tuY&callback=initMap">
-              </script>
-        </div>
-  
-  
-      </ons-page>
-    </template>
+  <!-- map -->
+  <template id="map.html">
+    <ons-page id="map">
+      <div id="map">
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAxeT-T4ZX8Lc6gMH1h1kmVJ-WOKy2tuY&callback=initMap">
+        </script>
+      </div>
+
+
+    </ons-page>
+  </template>
 
 
 
@@ -250,12 +229,28 @@
 
     </ons-page>
   </template>
-        
 
 
 
-<script id="template" type="x-tmpl-mustache">
+
+
+
+
+
+
+  <script id="template" type="x-tmpl-mustache">
   <ons-card style="background-color: #f38a00";>
+      <ons-list-item class="post_title"> 
+          <div class="left">
+              <img class="list-item__thumbnail" src="http://dogicorner.com/wp-content/uploads/2012/07/Beagle-dog-03-07-10-04-300x278.jpg" style="width:50px;height50px;border-radius:50%;" >
+            </div>    
+            <div class="center">
+                <div class="list-item__title"><b>david_graham</b></div>
+                <div class="list-item__subtitle" style="font-size: 12px">Fushimi Inari Shrine, Kyoto</div>
+              </div>
+              <div class="right"><ons-button class="corner-button" modifier="quiet"><ons-icon icon="ion-ios-more,material:ion-android-more-vertical"></ons-icon></ons-button></div>
+            </ons-list-item>
+
       <img src="{{photo}}" style="width:100%;height:100%">
       
       <div class="content">
@@ -268,18 +263,18 @@
           
             <p align = "left">{{description}}</p>
             
-        </div></ons-card>
+        </ons-card></div>
         
       </div>
     </ons-card>
       <br>
       
 </script>
-    
-  </body>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="cordova_plugins.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
-    
+
+</body>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="cordova_plugins.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase-firestore.js"></script>
+
 </html>

@@ -230,3 +230,20 @@ var like = function(num) {
                   });
                                   });
               }
+
+//-------------------------------------delete post---------------------------------------------
+              function deletePost(id){
+                console.log(id);
+                var did = id;
+                var db = firebase.firestore();
+                
+                db.collection("pins").doc(did).delete().then(function() {
+                  console.log("Document successfully deleted!");
+                  alert('Delete post complete!');
+                  location.reload('index.html');
+
+                }).catch(function(error) {
+                  console.error("Error removing document: ", error);
+                });
+              
+              }
