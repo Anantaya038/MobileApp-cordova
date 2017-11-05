@@ -240,16 +240,16 @@
 
   <script id="template" type="x-tmpl-mustache">
   <ons-card style="background-color: #f38a00";>
-      <ons-list-item class="post_title"> 
+      <div style="text-align: right">
+      <ons-button class="close-button" modifier="quiet" onclick="deletePost(this.id)" id="{{id}}"><ons-icon id="button-post-like-2" icon="fa-times-circle"></ons-icon></ons-button>
+    </div>
+      <ons-list-item class="post_title">
           <div class="left">
-              <img class="list-item__thumbnail" src="http://dogicorner.com/wp-content/uploads/2012/07/Beagle-dog-03-07-10-04-300x278.jpg" style="width:50px;height50px;border-radius:50%;" >
-            </div>    
-            <div class="center">
-                <div class="list-item__title"><b>david_graham</b></div>
-                <div class="list-item__subtitle" style="font-size: 12px">Fushimi Inari Shrine, Kyoto</div>
-              </div>
-              <div class="right"><ons-button class="corner-button" modifier="quiet"><ons-icon icon="ion-ios-more,material:ion-android-more-vertical"></ons-icon></ons-button></div>
-            </ons-list-item>
+              <img src="img/me.jpg" class="w3-border" alt="Anantaya038" style="padding:4px;width:32%;border-radius:50%;"><br>
+              <div class="center"><b>&nbsp;&nbsp; Anantaya Wareesri </b></div>          
+          </div>
+        </ons-list-item>
+  
 
       <img src="{{photo}}" style="width:100%;height:100%">
       

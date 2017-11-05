@@ -93,7 +93,8 @@ var photoRef = storageRef.child("photos/"+ timestamp+ ".png");
       photoRef.put(blob).then(function (snapshot) {
       photoRef.getDownloadURL().then(function (url) {
       photoURL = url;
-          alert(url);
+          alert("Take a photo complete! ");
+          $("#preview").attr("src", url);
       })
   });
 }
@@ -115,6 +116,7 @@ function locate(){
     ltd=position.coords.latitude;
     lgt=position.coords.longitude;
     alert("Latitude : "+ltd+"\n"+"Longitude : "+lgt);
+    alert('Add location complete');
     
 };
 
@@ -180,6 +182,7 @@ function onSuccess(position) {
   ltd=position.coords.latitude;
   lgt=position.coords.longitude;
   alert("Latitude : "+ltd+"\n"+"Longitude : "+lgt);
+ 
   
 };
 
