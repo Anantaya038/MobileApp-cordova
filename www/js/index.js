@@ -136,7 +136,19 @@ function add(){
 
   var description = document.getElementById('description').value;
   var timestamp = Number(new Date());
-  
+  var today = new Date();
+  var dd = today.getDate();
+  var mm = today.getMonth()+1; //January is 0!
+  var hh = today.getHours();
+  var MM = today.getMinutes();
+  var yyyy = today.getFullYear();
+  if(dd<10){
+      dd='0'+dd;
+  } 
+  if(mm<10){
+      mm='0'+mm;
+  } 
+  var today = dd+'/'+mm+'/'+yyyy+'/ '+hh+':'+MM;
   console.log(description);
   var db = firebase.firestore();
   db.collection("pins").doc("'"+timestamp+"'").set({
@@ -144,7 +156,8 @@ function add(){
     photo: photoURL,
     description: description,
     lat: ltd,
-    long: lgt
+    long: lgt,
+    date: today
     
   })
 alert("Photo URL : "+photoURL+"\n"+"Description : "+description+"\n"+"Latitude : "+ltd+"\n"+"Longitude : "+lgt);
